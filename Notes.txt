@@ -1,0 +1,4 @@
+Since this board isn't the fastest board. I'm installed QEMU on my PC which will run an 8 core RISC-V virtual machine from the command line.
+
+I want to see if building a kernel will be faster being build on a RISC-V virtual machine that the actuall hardware.
+
