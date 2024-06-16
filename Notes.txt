@@ -2,3 +2,12 @@ Since this board isn't the fastest board. I'm installed QEMU on my PC which will
 
 I want to see if building a kernel will be faster being build on a RISC-V virtual machine that the actuall hardware.
 
+Update: 
+June 16th
+
+Explaining Computers showcased the board. It's like he says, if it could boot from NVME it would be much faster.
+
+I am working on this now. Will post updates as I have them.
+
+Franco
+
