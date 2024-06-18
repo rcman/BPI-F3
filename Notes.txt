@@ -47,8 +47,11 @@ https://github.com/u-boot/u-boot/blob/master/doc/arch/riscv.rst
 
 https://www.rocketboards.org/foswiki/Documentation/SingleImageBoot
 
-Building an Image
+Building an Image  BPI-F3 stuff
 
 https://docs.banana-pi.org/en/tutorial/how_to_build_a_image_with_bsp
+https://gitee.com/bianbu-linux/linux-6.1
+https://gitee.com/bianbu-linux/opensbi
+https://archive.spacemit.com/image/k1/version/bianbu/
 
 
