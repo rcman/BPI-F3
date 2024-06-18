@@ -39,5 +39,8 @@ Updated URL:
 
 https://wiki.riscv.org/display/HOME/Toolchain+Projects
 
+Understanding the RISC-V boot order
+
+https://github.com/carlosedp/riscv-bringup/blob/master/unleashed/Readme.md
 
 
