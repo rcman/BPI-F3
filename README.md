@@ -17,3 +17,7 @@ The ran make Image  (completed)
 then ran make modules (completed)
 
 This is a work in progress.
+
+Read the Notes file as I will be putting updates in that file.
+Thanks
+
