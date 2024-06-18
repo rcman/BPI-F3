@@ -3,7 +3,7 @@ Since this board isn't the fastest board. I'm installed QEMU on my PC which will
 I want to see if building a kernel will be faster being build on a RISC-V virtual machine that the actuall hardware.
 
 Update: 
-June 16th
+**June 16th
 
 Explaining Computers showcased the board. It's like he says, if it could boot from NVME it would be much faster.
 
@@ -11,7 +11,7 @@ I am working on this now. Will post updates as I have them.
 
 Franco
 
-June 17th New Links
+**June 17th New Links
 
 https://github.com/riscv-collab/riscv-gnu-toolchain
 
@@ -25,7 +25,7 @@ https://github.com/TroyMitchell911/bpi-f3-linux-6.6
 https://github.com/cyyself/bpi-f3-mkimg
 https://github.com/jellyterra/bpi-f3-archlinux
 
-June 18th
+**June 18th
 
 I found they make a tool for Linux called Clonezilla which will change your initrd 
 
@@ -35,7 +35,7 @@ detect other drives installed on your machine and change the initrd so it uses t
 
 I need o test this. I'll let you know.
 
-Updated URL:
+**Updated URL:
 
 https://wiki.riscv.org/display/HOME/Toolchain+Projects
 
