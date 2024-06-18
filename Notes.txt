@@ -14,6 +14,9 @@ Franco
 June 17th New Links
 
 https://github.com/riscv-collab/riscv-gnu-toolchain
+
+https://github.com/riscv-collab/riscv-gnu-toolchain/releases
+
 https://stijn.tintel.eu/blog/2024/05/19/compiling-uboot-bpi-f3/
 
 https://github.com/pyavitz/debian-image-builder/activity
@@ -31,4 +34,10 @@ I haven't tried it yet but if you run it on the banana pi-f3 with an m.2 install
 detect other drives installed on your machine and change the initrd so it uses that storage.
 
 I need o test this. I'll let you know.
+
+Updated URL:
+
+https://wiki.riscv.org/display/HOME/Toolchain+Projects
+
+
 
