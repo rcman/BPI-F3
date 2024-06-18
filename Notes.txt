@@ -13,6 +13,7 @@ Franco
 
 June 17th New Links
 
+https://github.com/riscv-collab/riscv-gnu-toolchain
 https://stijn.tintel.eu/blog/2024/05/19/compiling-uboot-bpi-f3/
 
 https://github.com/pyavitz/debian-image-builder/activity
