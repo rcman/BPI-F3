@@ -61,5 +61,21 @@ Not for BPI-F3 but important to know for more information about booting and flag
 
 https://community.st.com/t5/stm32-mpus-products/stm32mp1-boot-from-emmc-and-switch-boot-source-after-otp/td-p/144840
 
+Command
+
+cat /proc/partitions 
+major minor  #blocks  name
+
+179        0   30310400 mmcblk0
+179        1   30040047 mmcblk0p1
+259        0       4096 mmcblk0p14
+259        1     262144 mmcblk0p15
+179        8       4096 mmcblk0boot0
+179       16       4096 mmcblk0boot1
+252        0    1967224 zram0
+252        1      51200 zram1
+
+
+
 
 
