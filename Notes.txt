@@ -60,22 +60,19 @@ EMMC Info
 Not for BPI-F3 but important to know for more information about booting and flags
 
 https://community.st.com/t5/stm32-mpus-products/stm32mp1-boot-from-emmc-and-switch-boot-source-after-otp/td-p/144840
+https://stackoverflow.com/questions/71955198/where-is-uboot-environment-variables-stored-in-emmc
 
-Command
+Similarly, you can check the u-boot version on the board. The boot partition /dev/mmcblk2boot0 contains the u-boot binary with the old version lf_v2022.04_var01.
 
-cat /proc/partitions 
-major minor  #blocks  name
+From here: https://embeddeduse.com/2024/05/13/updating-u-boot-with-an-a-b-strategy/
 
-179        0   30310400 mmcblk0
-179        1   30040047 mmcblk0p1
-259        0       4096 mmcblk0p14
-259        1     262144 mmcblk0p15
-179        8       4096 mmcblk0boot0
-179       16       4096 mmcblk0boot1
-252        0    1967224 zram0
-252        1      51200 zram1
+# strings /dev/mmcblk2boot0 | grep "U-Boot 20"
+U-Boot 2022.04-lf_v2022.04_var01+gf6390c6805
 
-
+ mmc extcsd read /dev/mmcblk2 | grep -A2 PARTITION_CONFIG
+Boot configuration bytes [PARTITION_CONFIG: 0x08]
+ Boot Partition 1 enabled
+ No access to boot partition
 
 
 
