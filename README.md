@@ -27,7 +27,6 @@ https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/arch/ris
 <br>
 https://lore.kernel.org/linux-kernel/20240617-haiku-coasting-2f1cdca0ed30@wendy/T/
 <br>
-
 <br>
 **Steps to replace OpenSBI on Spacemit K1**
 <br>
