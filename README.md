@@ -1,3 +1,5 @@
+** BPI-F3 Docs
+
 I've been working on my banada-pi F3 but the documentation and informarmation isn't great. So I'll be sharing my info on here.
 
 Right now Armbian boots from a micro SD card. I downloaded the latest kernal from kernel.org
