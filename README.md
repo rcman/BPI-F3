@@ -22,7 +22,8 @@ This is a work in progress.
 https://www.fw-web.de/dokuwiki/doku.php?id=en:bpi-r3:uboot
 <br>
 https://fw-web.de/dokuwiki/
-
+<br>
+https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/arch/riscv
 
 Read the Notes file as I will be putting updates in that file.
 Thanks
