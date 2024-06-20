@@ -21,9 +21,9 @@ https://stijn.tintel.eu/blog/2024/05/19/compiling-uboot-bpi-f3/
 
 https://github.com/pyavitz/debian-image-builder/activity
 
-https://github.com/TroyMitchell911/bpi-f3-linux-6.6
-https://github.com/cyyself/bpi-f3-mkimg
-https://github.com/jellyterra/bpi-f3-archlinux
+https://github.com/TroyMitchell911/bpi-f3-linux-6.6<br>
+https://github.com/cyyself/bpi-f3-mkimg<br>
+https://github.com/jellyterra/bpi-f3-archlinux<br>
 
 **June 18th**
 
