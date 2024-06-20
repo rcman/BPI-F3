@@ -69,6 +69,8 @@ From here: https://embeddeduse.com/2024/05/13/updating-u-boot-with-an-a-b-strate
 # strings /dev/mmcblk2boot0 | grep "U-Boot 20"
 U-Boot 2022.04-lf_v2022.04_var01+gf6390c6805
 
+**This command actually works on the BPI-F3 K1. When you run it it reports back what's in that partition!**
+
  mmc extcsd read /dev/mmcblk2 | grep -A2 PARTITION_CONFIG
 Boot configuration bytes [PARTITION_CONFIG: 0x08]
  Boot Partition 1 enabled
