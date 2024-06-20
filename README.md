@@ -20,7 +20,7 @@ This is a work in progress.
 **Updated June 20th**
 
 https://www.fw-web.de/dokuwiki/doku.php?id=en:bpi-r3:uboot
-https://fw-web.de/dokuwiki/doku.php?id=en:start
+https://fw-web.de/dokuwiki/
 
 
 Read the Notes file as I will be putting updates in that file.
