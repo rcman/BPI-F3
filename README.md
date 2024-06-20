@@ -26,8 +26,10 @@ https://fw-web.de/dokuwiki/
 https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/arch/riscv
 <br>
 https://lore.kernel.org/linux-kernel/20240617-haiku-coasting-2f1cdca0ed30@wendy/T/
+<br>
 https://gist.github.com/cyyself/a07096e6e99c949ed13f8fa16d884402
-
+<br>
+https://gist.github.com/cyyself/a2201c01f5c8955a119641f97b7d0280
 
 Read the Notes file as I will be putting updates in that file.
 Thanks
