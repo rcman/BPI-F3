@@ -25,6 +25,9 @@ https://fw-web.de/dokuwiki/
 <br>
 https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/arch/riscv
 
+https://gist.github.com/cyyself/a07096e6e99c949ed13f8fa16d884402
+
+
 Read the Notes file as I will be putting updates in that file.
 Thanks
 
