@@ -17,6 +17,11 @@ then ran make modules (completed)
 
 This is a work in progress.
 
+**Updated June 20th**
+
+https://www.fw-web.de/dokuwiki/doku.php?id=en:bpi-r3:uboot
+
+
 Read the Notes file as I will be putting updates in that file.
 Thanks
 
