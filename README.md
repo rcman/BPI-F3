@@ -2,9 +2,10 @@
 
 I've been working on my banana-pi F3 but the documentation and informarmation isn't great. So I'll be sharing my info on here.
 
-Right now Armbian boots from a micro SD card. I downloaded the latest kernal from kernel.org
+Boots from EMmc.
 
-Copied the config file from the boot directory to .config of the downloaded kernel.
+Compiled latest kernal from kernel.org
+Copied config file frin /boot to the uncompressed kernel directory as .config
 
 Before compiling the kernel I installed these packages
 
