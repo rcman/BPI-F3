@@ -59,7 +59,10 @@ https://archive.spacemit.com/image/k1/version/bianbu/
 
 Not for BPI-F3 but important to know for more information about booting and flags
 
-https://community.st.com/t5/stm32-mpus-products/stm32mp1-boot-from-emmc-and-switch-boot-source-after-otp/td-p/144840
+** Great Link Below**
+**https://community.st.com/t5/stm32-mpus-products/stm32mp1-boot-from-emmc-and-switch-boot-source-after-otp/td-p/144840**
+
+
 https://stackoverflow.com/questions/71955198/where-is-uboot-environment-variables-stored-in-emmc
 
 Similarly, you can check the u-boot version on the board. The boot partition /dev/mmcblk2boot0 contains the u-boot binary with the old version lf_v2022.04_var01.
