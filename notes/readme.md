@@ -59,7 +59,7 @@ https://archive.spacemit.com/image/k1/version/bianbu/
 
 Not for BPI-F3 but important to know for more information about booting and flags
 
-**Great Link Below**
+**Great Link**
 **https://community.st.com/t5/stm32-mpus-products/stm32mp1-boot-from-emmc-and-switch-boot-source-after-otp/td-p/144840**
 
 
