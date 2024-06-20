@@ -74,5 +74,12 @@ Boot configuration bytes [PARTITION_CONFIG: 0x08]
  Boot Partition 1 enabled
  No access to boot partition
 
+**June 20th**
+**kernel Compile errors**
+
+So when trying to compile the kernel kept getting an error. When I checked dmesg I said that was out of memory. I stopped the GUI with Init 3 and the compile finished from console.
+
+
+
 
 
