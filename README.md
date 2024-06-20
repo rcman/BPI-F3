@@ -22,3 +22,5 @@ Read the Notes file as I will be putting updates in that file.
 Thanks
 
 ![alt text](https://i.imgur.com/amodwQe.jpg)
+![alt text]((https://i.imgur.com/yYlqel3.jpg) )
+![alt text](https://i.imgur.com/amodwQe.jpg)
