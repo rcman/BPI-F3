@@ -21,3 +21,5 @@ Read the Notes file as I will be putting updates in that file.
 Thanks
 
 [Translated](translated/readme.md)
+
+[Notes](notes/readme.md)
