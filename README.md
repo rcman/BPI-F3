@@ -20,7 +20,8 @@ This is a work in progress.
 **Updated June 20th**
 
 https://www.fw-web.de/dokuwiki/doku.php?id=en:bpi-r3:uboot
-https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/tree/arch/arm64/boot/dts
+https://fw-web.de/dokuwiki/doku.php?id=en:start
+
 
 Read the Notes file as I will be putting updates in that file.
 Thanks
