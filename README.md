@@ -8,7 +8,7 @@ Copied the config file from the boot directory to .config of the downloaded kern
 
 Before compiling the kernel I installed these packages
 
-sudo apt install libncurses-dev gawk flex bison openssl libssl-dev dkms libelf-dev libudev-dev libpci-dev libiberty-dev autoconf llvm
+**sudo apt install libncurses-dev gawk flex bison openssl libssl-dev dkms libelf-dev libudev-dev libpci-dev libiberty-dev autoconf llvm**
 
 The ran make menuconfig to see if it would work. It did
 
