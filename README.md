@@ -21,4 +21,4 @@ This is a work in progress.
 Read the Notes file as I will be putting updates in that file.
 Thanks
 
-in [Section `Transalated Screens`](#translated)
+[Contribution guidelines for this project](translated/readme.md)
