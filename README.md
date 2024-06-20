@@ -21,4 +21,4 @@ This is a work in progress.
 Read the Notes file as I will be putting updates in that file.
 Thanks
 
-[(translated/readme.md)
+[Translated](translated/readme.md)
