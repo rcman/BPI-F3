@@ -11,7 +11,7 @@ I am working on this now. Will post updates as I have them.
 
 Franco
 
-**June 17th New Links
+**June 17th New Links**
 
 https://github.com/riscv-collab/riscv-gnu-toolchain
 
@@ -25,7 +25,7 @@ https://github.com/TroyMitchell911/bpi-f3-linux-6.6
 https://github.com/cyyself/bpi-f3-mkimg
 https://github.com/jellyterra/bpi-f3-archlinux
 
-**June 18th
+**June 18th**
 
 I found they make a tool for Linux called Clonezilla which will change your initrd 
 
@@ -35,7 +35,7 @@ detect other drives installed on your machine and change the initrd so it uses t
 
 I need o test this. I'll let you know.
 
-**Updated URL:
+**Updated URL:**
 
 https://wiki.riscv.org/display/HOME/Toolchain+Projects
 
@@ -47,7 +47,7 @@ https://github.com/u-boot/u-boot/blob/master/doc/arch/riscv.rst
 
 https://www.rocketboards.org/foswiki/Documentation/SingleImageBoot
 
-Building an Image  BPI-F3 stuff
+**Building an Image  BPI-F3 stuff**
 
 https://docs.banana-pi.org/en/tutorial/how_to_build_a_image_with_bsp
 https://gitee.com/bianbu-linux/linux-6.1
@@ -55,7 +55,7 @@ https://gitee.com/bianbu-linux/opensbi
 https://archive.spacemit.com/image/k1/version/bianbu/
 
 
-EMMC Info
+**EMMC Info**
 
 Not for BPI-F3 but important to know for more information about booting and flags
 
