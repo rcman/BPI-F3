@@ -28,7 +28,7 @@
 
 		I needed to to a sudo grub-install /dev/sda before the sudo update-grub – 
 
-		**update-initramfs -u (initramfs contains the resume partition UUID)**		
+**update-initramfs -u (initramfs contains the resume partition UUID)**		
 		---------------------------------------------------------------------------
 		
 		sudo dd if=/dev/sdx1 of=/dev/sdy1 bs=64K conv=noerror,sync
@@ -70,7 +70,7 @@
 		# / was on /dev/sdc1 during installation
 		UUID=cd6ecfb1–05e0–4dd7–89e7–8e78dad1fa0e / ext4 errors=remount-ro 0 1
 		# /home was on /dev/sdc2 during installation
-		**UUID=667f98f4–9db1–415b-b326–65d16c528e29 /home ext4 defaults 0 2**
+  **UUID=667f98f4–9db1–415b-b326–65d16c528e29 /home ext4 defaults 0 2**
 		/swapfile none swap sw 0 0
 		UUID=7AA7–10F1 /boot/efi vfat defaults 0 1
 		
