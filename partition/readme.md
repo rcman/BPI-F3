@@ -1,5 +1,5 @@
 
- Steps
+**Steps**
  
 	- boot from a live cd.
 	
@@ -28,8 +28,7 @@
 
 		I needed to to a sudo grub-install /dev/sda before the sudo update-grub – 
 
-		update-initramfs -u (initramfs contains the resume partition UUID).
-		
+		**update-initramfs -u (initramfs contains the resume partition UUID)**		
 		---------------------------------------------------------------------------
 		
 		sudo dd if=/dev/sdx1 of=/dev/sdy1 bs=64K conv=noerror,sync
