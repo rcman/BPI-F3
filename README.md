@@ -44,3 +44,21 @@ Thanks
 
 [Notes](notes/readme.md)<br>
 [Partition](partition/readme.md)
+<br>
+**Something new I found**
+
+run a sudo apt install inxi
+<br>
+Then run this command:   inxi -Say
+<br>
+**Output**
+<br>
+System:
+  Host: k1 Kernel: 6.1.15 arch: riscv64 bits: 64 compiler: gcc v: 13.2.0
+    clocksource: riscv_clocksource available: jiffies parameters: earlycon=sbi
+    earlyprintk console=tty1 console=ttyS0,115200 loglevel=8 clk_ignore_unused
+    swiotlb=65536 rdinit=/init root=/dev/mmcblk2p6 rootwait rootfstype=ext4
+  Console: pty pts/3 wm: gnome-shell DM: GDM3 v: 45.beta Distro: Bianbu
+    1.0.3 (Mantic Minotaur)
+
+
