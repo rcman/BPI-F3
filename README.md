@@ -59,6 +59,14 @@ System:
     earlyprintk console=tty1 console=ttyS0,115200 loglevel=8 clk_ignore_unused
     swiotlb=65536 rdinit=/init root=/dev/mmcblk2p6 rootwait rootfstype=ext4
   Console: pty pts/3 wm: gnome-shell DM: GDM3 v: 45.beta Distro: Bianbu
-    1.0.3 (Mantic Minotaur)
+    1.0.3 (Mantic Minotaur)<br>
+
+
+**OMG I think I just figured it out!**
+<br>
+
+Will know tonight if it's going to work!  <br>
+**STAY TUNED**
+
 
 
