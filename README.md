@@ -42,5 +42,5 @@ Thanks
 
 [Translated](translated/readme.md)
 
-[Notes](notes/readme.md)
+[Notes](notes/readme.md)<br>
 [Partition](partition/readme.md)
