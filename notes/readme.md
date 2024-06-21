@@ -89,4 +89,14 @@ So when trying to compile the kernel kept getting an error. When I checked dmesg
 
 
 
+June 21st
+
+Install Open SBI on my box, followed the instructions.
+
+The only difference in my method was that I was booting from Emmc so I used blk2 not blk0 which would have been the Micro SD card.
+
+Franco
+
+
+
 
