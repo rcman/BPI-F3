@@ -64,8 +64,7 @@ System:
 
 **More downloads, more compiles, more pulling out hair out!**
 <br>
-
-Will know tonight if it's going to work!  <br>
+<br>
 **June 24th**
 <br>
 Well after a lot of digging, thinking I was going to change the Init file that was located in the initrd that was only the beginning.<br>
