@@ -66,7 +66,20 @@ System:
 <br>
 
 Will know tonight if it's going to work!  <br>
-**STAY TUNED**
+**June 24th**
+<br>
+Well after a lot of digging, thinking I was going to change the Init file that was located in the initrd that was only the beginning.<br>
+After I compiled the kernel, copied over my compiled version of the kernel with the same name the system would not boot. Oh and before this<br>
+I downloaded the source code for Grub and Grub2 boot loader because I wanted to know if that was even an option. Even though it compiled there was <br>
+something not quite right with the booting. After more digging looked in to more information and u-boot and relalized that was a whole nother thing<br>
+as u-boot needs to be aware of the kernel. So here we go again, download source for u-boot and compile, build all the tools etc. There's so many options<br>
+it's a whole big section. This morning I downloaded some new source code which was a boot selector for u-boot. Basically you tell u-boot you want to boot from whatever<br>
+device you want, and yes it has provision for NVME. <br>
+<br>
+Holy what a pain, doesn't help that the documentation is crap and banana pi is completely not helpful.  What makes me mad is that they're making a laptop with the same board but<br>
+with 8 gigs of RAM and boots Ubuntu. But they won't release the image (how nice of them). We will keep working hard to get this thing working for all of us!
+<br>
+Franco
 
 
 
