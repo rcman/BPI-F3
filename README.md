@@ -78,6 +78,11 @@ device you want, and yes it has provision for NVME. <br>
 Holy what a pain, doesn't help that the documentation is crap and banana pi is completely not helpful.  What makes me mad is that they're making a laptop with the same board but
 with 8 gigs of RAM and boots Ubuntu. But they won't release the image (how nice of them). We will keep working hard to get this thing working for all of us!
 <br>
+New Links for this week<br>
+
+https://github.com/ARM-software/u-boot/tree/master
+
+
 Franco
 
 
