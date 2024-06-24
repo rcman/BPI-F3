@@ -68,7 +68,7 @@ System:
 **June 24th**
 <br>
 Well after a lot of digging, thinking I was going to change the Init file that was located in the initrd that was only the beginning.<br>
-After I compiled the kernel, copied over my new kernel with the same name the system would not boot. Oh and before this<br>
+After I compiled the kernel, copying it over the system would not boot. Oh and before this<br>
 I downloaded the source code for Grub and Grub2 boot loader because I wanted to know if that was even an option. Even though it compiled there was <br>
 something not quite right with the booting. After more digging looked in to more information and u-boot and relalized that was a whole nother thing<br>
 as u-boot needs to be aware of the kernel. So here we go again, download source for u-boot and compile, build all the tools etc. There's so many options<br>
