@@ -62,7 +62,7 @@ System:
     1.0.3 (Mantic Minotaur)<br>
 
 
-**OMG I think I just figured it out!**
+**More downloads, more compiles, more pulling out hair out!**
 <br>
 
 Will know tonight if it's going to work!  <br>
