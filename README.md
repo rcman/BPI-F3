@@ -75,7 +75,7 @@ as u-boot needs to be aware of the kernel. So here we go again, download source 
 it's a whole big section. This morning I downloaded some new source code which was a boot selector for u-boot. Basically you tell u-boot you want to boot from whatever
 device you want, and yes it has provision for NVME. <br>
 <br>
-Holy what a pain, doesn't help that the documentation is crap and banana pi is completely not helpful.  What makes me mad is that they're making a laptop with the same board but<br>
+Holy what a pain, doesn't help that the documentation is crap and banana pi is completely not helpful.  What makes me mad is that they're making a laptop with the same board but
 with 8 gigs of RAM and boots Ubuntu. But they won't release the image (how nice of them). We will keep working hard to get this thing working for all of us!
 <br>
 Franco
