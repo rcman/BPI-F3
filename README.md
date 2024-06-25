@@ -82,8 +82,22 @@ New Links for this week<br>
 
 https://github.com/ARM-software/u-boot/tree/master
 
-
+<br>
 Franco
+<br>
+
+**June 25th**
+
+Downloaded pi-u-boot from here<br>
+
+https://github.com/BPI-SINOVOIP/pi-u-boot/tree/v2022.10-k1
+<br>
+Ran this command:  
+
+make k1_defconfig whihc produces a .config file<br>
+Then ran a make. Let it build. <br>
+When finished you should habe the u-boot for the BPI-F3 aka spacemit k1 board.<br>
+
 
 
 
