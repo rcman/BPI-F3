@@ -96,7 +96,7 @@ Ran this command:
 
 make k1_defconfig which produces a .config file<br>
 Then ran a make. Let it build. <br>
-When finished you should habe the u-boot for the BPI-F3 aka spacemit k1 board.<br>
+When finished you should have the u-boot for the BPI-F3 aka spacemit k1 board.<br>
 This was my output.<br>
 (2024-06-25 09:07:14,311) arch : RISCV64
 (2024-06-25 09:07:14,311) description : spacemit k1x fsbl image
