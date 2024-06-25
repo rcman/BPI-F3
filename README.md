@@ -97,6 +97,20 @@ Ran this command:
 make k1_defconfig which produces a .config file<br>
 Then ran a make. Let it build. <br>
 When finished you should habe the u-boot for the BPI-F3 aka spacemit k1 board.<br>
+This was my output.<br>
+(2024-06-25 09:07:14,311) arch : RISCV64
+(2024-06-25 09:07:14,311) description : spacemit k1x fsbl image
+writing RSA key
+writing RSA key
+(2024-06-25 09:07:15,241) arch : RISCV64
+(2024-06-25 09:07:15,242) description : spacemit k1x spinor bootinfo image
+(2024-06-25 09:07:15,672) arch : RISCV64
+(2024-06-25 09:07:15,673) description : spacemit k1x spinand bootinfo image
+(2024-06-25 09:07:16,100) arch : RISCV64
+(2024-06-25 09:07:16,101) description : spacemit k1x eMMC bootinfo image
+(2024-06-25 09:07:16,535) arch : RISCV64
+(2024-06-25 09:07:16,536) description : spacemit k1x sdcard bootinfo image
+
 
 
 
