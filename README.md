@@ -109,7 +109,12 @@ writing RSA key
 (2024-06-25 09:07:16,100) arch : RISCV64
 (2024-06-25 09:07:16,101) description : spacemit k1x eMMC bootinfo image
 (2024-06-25 09:07:16,535) arch : RISCV64
-(2024-06-25 09:07:16,536) description : spacemit k1x sdcard bootinfo image
+(2024-06-25 09:07:16,536) description : spacemit k1x sdcard bootinfo image<br>
+**June 26**
+<br>
+Wow it's been a crazy week! Every day that goes by I learn more and more about this board. That also means I am getting closer to a video release on YouTube for everyone on how to install the latest Ubuntu on this machine and have it run from NVME because that is my goal. I will let you know soon!
+
+<br>
 
 
 
