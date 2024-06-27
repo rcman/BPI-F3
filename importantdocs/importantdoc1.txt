@@ -1,0 +1,89 @@
+
+               04602-THR-A10ZZ	1	$371.92
+
+Use the keyboard "Y"/"N" to turn on/off related function configurations. After saving, it will be updated to the .config file in the uboot root directory.
+
+Compile uboot
+cd ~/uboot-2022.10
+GCC_PREFIX=riscv64-unknown-linux-gnu-
+make ARCH=riscv CROSS_COMPILE=${GCC_PREFIX} -C ~/uboot-2022.10 -j4
+Compile product
+~/uboot-2022.10$ ls u-boot* -l
+u-boot
+u-boot.bin # uboot mirror
+u-boot.dtb # dtb file
+u-boot-dtb.bin # uboot image with dtb
+u-boot.itb # Package u-boot-nodtb.bin and dtb into fit format
+u-boot-nodtb.bin
+bootinfo_emmc.bin # Used to record spl location information when emmc starts
+bootinfo_sd.bin
+bootinfo_spinand.bin
+bootinfo_spinor.bin
+FSBL.bin # u-boot-spl.bin adds header information. Loaded and started by brom
+k1-x_deb1.dtb # Dtb file of scheme deb1
+k1-x_spl.dtb # dtb file of spl
+dts configuration
+The uboot dts is configured in the directory uboot-2022.10/arch/riscv/dts/. Modify the dts of the scheme according to different schemes, such as the deb1 scheme.
+
+~/uboot-2022.10$ ls arch/riscv/dts/k1*.dts -l
+arch/riscv/dts/k1-x_deb1.dts
+arch/riscv/dts/k1-x_deb2.dts
+arch/riscv/dts/k1-x_evb.dts
+arch/riscv/dts/k1-x_fpga_1x4.dts
+arch/riscv/dts/k1-x_fpga_2x2.dts
+arch/riscv/dts/k1-x_fpga.dts
+arch/riscv/dts/k1-x_spl.dts
+uboot driver development and debugging
+This chapter mainly introduces the driver usage and debugging methods of uboot. By default, all drivers have been configured.
+boot kernel
+This section introduces uboot to start the kernel, as well as the custom configuration and startup of partitions.
+
+After the development board is powered on, immediately press the "s" key on the keyboard to enter the uboot shell
+You can enter fastboot mode by executing fastboot 0, and send the image to the development board through fastboot stage Image on the computer. (Or other ways to download the image, such as fatload and other commands)
+Execute booti to start the kernel (or bootm to start the fit format image)
+#Download kernel image
+=> fastboot -l 0x40000000 0
+Starting download of 50687488 bytes
+...
+downloading/uploading of 50687488 bytes finished
+
+#Computer side execution command
+C:\Users>fastboot stage Z:\k1\output\Image
+Sending 'Z:\k1\output\Image' (49499 KB) OKAY [ 1.934s]
+Finished. Total time: 3.358s
+
+#After the download is completed, in the uboot shell, enter CTRL+C on the keyboard to exit fastboot mode.
+
+
+#downloaddtb
+=> fastboot -l 0x50000000 0
+Starting download of 33261 bytes
+
+downloading/uploading of 33261 bytes finished
+
+#Computer side execution command
+C:\Users>fastboot stage Z:\k1\output\k1-x_deb1.dtb
+Sending 'Z:\k1\output\k1-x_deb1.dtb' (32 KB) OKAY [ 0.004s]
+Finished. Total time: 0.054s
+Execute startup command
+
+=> booti 0x40000000 - 0x50000000
+Moving Image from 0x40000000 to 0x200000, end=3d4f000
+## Flattened Device Tree blob at 50000000
+   Booting using the fdt blob at 0x50000000
+   Using Device Tree in place at 0000000050000000, end 0000000050014896
+
+Starting kernel...
+
+[ 0.000000] Linux version 6.1.15+ ... ...
+[ 0.000000] OF: fdt: Ignoring memory range 0x0 - 0x200000
+[ 0.000000] Machine model: spacemit k1-x deb1 board
+[ 0.000000] earlycon: sbi0 at I/O port 0x0 (options '')
+[ 0.000000] printk: bootconsole [sbi0] enabled
+Start the fit format image through the bootm command
+Assume that partition 5 in emmc is a fat32 file system. And save the uImage.itb file inside, load and start the kernel through the following command.
+
+=> fatls mmc 2:5
+sdh@d4281000: 74 clk wait timeout(100)
+ 50896911 uImage.itb
+     4671 env_k1-x.txt
