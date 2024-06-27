@@ -113,9 +113,14 @@ writing RSA key
 **June 26**
 <br>
 Wow it's been a crazy week! Every day that goes by I learn more and more about this board. That also means I am getting closer to a video release on YouTube for everyone on how to install the latest Ubuntu on this machine and have it run from NVME because that is my goal. I will let you know soon!
-
 <br>
-
+<br>
+**June 27th**
+<br>
+I just found something out I had to share, apparently if you're connnected to your BPI-F3 board via debig console. As soon as you power it on and press the letter "s" is drops to the prompt!
+That changes everything! I guess not having the instruction in english didn't help! I used Google translate to find that out.
+<br>
+I have a lot more very important links to post as well, coming very soon.
 
 
 
