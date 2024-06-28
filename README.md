@@ -118,7 +118,10 @@ Wow it's been a crazy week! Every day that goes by I learn more and more about t
 **June 27th**
 <br>
 I just found something out I had to share, apparently if you're connnected to your BPI-F3 board via debig console. As soon as you power it on and press the letter "s" is drops to the prompt!
-That changes everything! I guess not having the instruction in english didn't help! I used Google translate to find that out.
+That changes everything! I guess not having the instruction in english didn't help! I used Google translate to find that out.<br>
+<br>
+**Good Link**
+https://dev.to/luzero/bringing-up-bpi-f3-part-1-3bm4
 <br>
 I have a lot more very important links to post as well, coming very soon.
 
