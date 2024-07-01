@@ -124,9 +124,10 @@ That changes everything! I guess not having the instruction in english didn't he
 https://dev.to/luzero/bringing-up-bpi-f3-part-1-3bm4<br>
 <br>
 **July 1st**
-[Notes](notes/readme.md)<br>
+[Notes](notes/env_file.md)<br>
 <br>
-I have a lot more very important links to post as well, coming very soon.
+Working on this BPI-F3 this weekend. Posting my notes in the links above.  
+
 
 
 
