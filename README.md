@@ -121,7 +121,10 @@ I just found something out I had to share, apparently if you're connnected to yo
 That changes everything! I guess not having the instruction in english didn't help! I used Google translate to find that out.<br>
 <br>
 **Good Link**
-https://dev.to/luzero/bringing-up-bpi-f3-part-1-3bm4
+https://dev.to/luzero/bringing-up-bpi-f3-part-1-3bm4<br>
+<br>
+**July 1st**
+[Notes](notes/readme.md)<br>
 <br>
 I have a lot more very important links to post as well, coming very soon.
 
