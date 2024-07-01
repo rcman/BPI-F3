@@ -125,7 +125,7 @@ https://dev.to/luzero/bringing-up-bpi-f3-part-1-3bm4<br>
 <br>
 **July 1st**
 <br>
-[env_file](notes/env_file)<br>
+[env_file](notes/env_print)<br>
 [fullbootlog](notes/fullbootlog)<br>
 [ubootcommand](notes/ubootcommand)<br>
 <br>
