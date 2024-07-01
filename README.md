@@ -127,7 +127,7 @@ https://dev.to/luzero/bringing-up-bpi-f3-part-1-3bm4<br>
 <br>
 [env_file](notes/env_print)<br>
 [fullbootlog](notes/fullbootlog)<br>
-[ubootcommand](notes/ubootcommand)<br>
+[ubootcommand](notes/ubootcommands)<br>
 <br>
 Working on this BPI-F3 this weekend. Posting my notes in the links above.  
 
