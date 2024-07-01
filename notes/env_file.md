@@ -1,6 +1,5 @@
 Env Print
-
-=> env print
+env print
 arch=riscv
 autoboot=if test ${boot_device} = nand; then run nand_boot; elif test ${boot_device} = nor; then run nor_boot; elif test ${boot_device} = mmc; then run mmc_boot; fi;
 autoload=0
