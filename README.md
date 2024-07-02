@@ -134,9 +134,36 @@ Working on this BPI-F3 this weekend. Posting my notes in the links above.
 <br>
 Building pi-u-boot now to create a new u-boot image so I can customize the k1_defconfig. This file should allow for me to create a menu, have more than one option for booting, different test kernels and so on. Plus booting from different sources like MMC and NVME.<br>
 **July 2nd**
-So I've been doing reading on U-Boot. It looks like I'll be writing my own config file for it. There is so much crap in the config file you don't need. It can be much shorter than what's there now. I'll post what  my config file looks like when I write it.
+So I've been doing reading on U-Boot. It looks like I'll be writing my own config file for it. There is so much crap in the config file you don't need. It can be much shorter than what's there now. I'll post what  my config file looks like when I write it.<br>
+<br>
+Here's what I learned so far<br>
+<br>
+Instead of 500 lines of #defines and a 4KB boot script, all that is needed is the following command:
+**bootflow scan -lb**
+which scans for available bootflows, optionally listing each find it finds (-l) and trying to boot it (-b).
+<br>
+**boot_targets**
+This environment variable can be used to control the list of bootdevs searched and their ordering, for example:
 
-
+setenv boot_targets "nvme"
+<br>
+Limit this to NVME
+<br>
+To scan the discoverable devices connected to the buses such as USB and PCIe prior to bootmenu showing up, CONFIG_PREBOOT can be used to run the command before showing the bootmenu, i.e.:
+<br>
+CONFIG_USE_PREBOOT=y<br>
+CONFIG_PREBOOT="pci enum; usb start; scsi scan; nvme scan; virtio scan"<br>
+<br>
+**NVMe**
+<br>
+This methods load the image from an NVMe drive. Required configuration settings include:<br>
+<br>
+CONFIG_SPL_PCI=y
+<br>
+CONFIG_SPL_PCI_PNP=y
+<br>
+CONFIG_SPL_NVME=y
+<br>
 
 
 
