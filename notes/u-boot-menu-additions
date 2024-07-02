@@ -40,5 +40,31 @@ CONFIG_SPL_FS_FAT=y or CONFIG_SPL_FS_EXT=y
 
 CONFIG_SPL_FS_LOAD_PAYLOAD_NAME=”<filepath>”
 
+Things I want to remove
+
+Loading from block devices
+MMC1, MMC2, MMC2_2
+These methods read an image from SD card or eMMC. The first digit after ‘MMC’ indicates the device number. Required configuration settings include:
+
+CONFIG_SPL_MMC=y or CONFIG_TPL_MMC=y
+
+To use a PCI connected MMC controller you need to additionally specify:
+
+CONFIG_SPL_PCI=y
+
+CONFIG_SPL_PCI_PNP=y
+
+CONFIG_MMC=y
+
+CONFIG_MMC_PCI=y
+
+CONFIG_MMC_SDHCI=y
+
+To load from a file system use:
+
+CONFIG_SPL_FS_FAT=y or CONFIG_SPL_FS_EXT=y
+
+CONFIG_SPL_FS_LOAD_PAYLOAD_NAME=”<filepath>”
+
 
 
