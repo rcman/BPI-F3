@@ -133,7 +133,8 @@ https://dev.to/luzero/bringing-up-bpi-f3-part-1-3bm4<br>
 Working on this BPI-F3 this weekend. Posting my notes in the links above.  
 <br>
 Building pi-u-boot now to create a new u-boot image so I can customize the k1_defconfig. This file should allow for me to create a menu, have more than one option for booting, different test kernels and so on. Plus booting from different sources like MMC and NVME.<br>
-
+**July 2nd**
+So I've been doing reading on U-Boot. It looks like I'll be writing my own config file for it. There is so much crap in the config file you don't need. It can be much shorter than what's there now. I'll post what  my config file looks like when I write it.
 
 
 
