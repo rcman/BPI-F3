@@ -191,6 +191,9 @@ CONFIG_SPL_FS_FAT=y or CONFIG_SPL_FS_EXT=y
 CONFIG_SPL_FS_LOAD_PAYLOAD_NAME=”<filepath>”<br>
 
 **Using binman**
+<br>
+https://docs.u-boot.org/en/latest/build/buildman.html
+<br>
 Example use of binman in U-Boot
 Binman aims to replace some of the ad-hoc image creation in the U-Boot build system.
 
