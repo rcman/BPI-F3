@@ -143,11 +143,11 @@ Instead of 500 lines of #defines and a 4KB boot script, all that is needed is th
 which scans for available bootflows, optionally listing each find it finds (-l) and trying to boot it (-b).
 <br>
 **boot_targets**
-This environment variable can be used to control the list of bootdevs searched and their ordering, for example:
+This environment variable can be used to control the list of bootdevs searched and their ordering, for example:<br>
 
 setenv boot_targets "nvme"
 <br>
-Limit this to NVME
+**Limit this to NVME**
 <br>
 To scan the discoverable devices connected to the buses such as USB and PCIe prior to bootmenu showing up, CONFIG_PREBOOT can be used to run the command before showing the bootmenu, i.e.:
 <br>
