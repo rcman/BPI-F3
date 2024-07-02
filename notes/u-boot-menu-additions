@@ -31,3 +31,14 @@ CONFIG_SPL_NVME_PCI=y
 CONFIG_SPL_NVME_BOOT_DEVICE (number of the NVMe device)
 
 CONFIG_SYS_NVME_BOOT_PARTITION (partition to read from)
+
+
+
+To load from a file system use:
+
+CONFIG_SPL_FS_FAT=y or CONFIG_SPL_FS_EXT=y
+
+CONFIG_SPL_FS_LOAD_PAYLOAD_NAME=”<filepath>”
+
+
+
