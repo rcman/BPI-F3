@@ -12,3 +12,22 @@ To scan the discoverable devices connected to the buses such as USB and PCIe pri
 
 CONFIG_USE_PREBOOT=y
 CONFIG_PREBOOT="pci enum; usb start; scsi scan; nvme scan; virtio scan"
+
+
+
+
+NVMe
+
+This methods load the image from an NVMe drive. Required configuration settings include:
+
+CONFIG_SPL_PCI=y
+
+CONFIG_SPL_PCI_PNP=y
+
+CONFIG_SPL_NVME=y
+
+CONFIG_SPL_NVME_PCI=y
+
+CONFIG_SPL_NVME_BOOT_DEVICE (number of the NVMe device)
+
+CONFIG_SYS_NVME_BOOT_PARTITION (partition to read from)
