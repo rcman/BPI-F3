@@ -4,6 +4,7 @@ mkimage -A riscv -0 linux -T kernel -C none -a 0x80200000 -e 0x80200000 -n Linux
 cp uImage /tftpboot/
 make PLATFORM=sifive/fu540 FW_PAYLOAD_PATH=Image
 sudo dd if=fw_payload.bin of=/dev/sdal bs=1024
+# in directory build/platform/spacemit/Q60/fireware/
 make PLATFORM=sifive/fu540 FW_PAYLOAD_PATH=u-boot.bin FU540_ENABLED_HART_MASK=0X02
 sudo dd if=fw_payload.bin of=/dev/sdbl bs=1024
 <Once at U-Boot prompt>
