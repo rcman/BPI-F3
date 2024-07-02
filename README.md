@@ -209,5 +209,8 @@ This simplifies the U-Boot Makefile somewhat, since various pieces of logic can 
 CONFIG_SPL_NVME=y
 <br>
 
-https://docs.u-boot.org/en/latest/develop/package/binman.html#example-use-of-binman-in-u-boot
+https://docs.u-boot.org/en/latest/develop/package/binman.html#example-use-of-binman-in-u-boot<br>
+<br>
+https://docs.u-boot.org/en/latest/arch/riscv.html
+
 
