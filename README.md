@@ -212,5 +212,10 @@ CONFIG_SPL_NVME=y
 https://docs.u-boot.org/en/latest/develop/package/binman.html#example-use-of-binman-in-u-boot<br>
 <br>
 https://docs.u-boot.org/en/latest/arch/riscv.html
+<br>
+**Another finding**
+<br>
+https://github.com/riscv-software-src/opensbi/blob/master/docs/firmware/fw_payload.md
+<br>
 
 
