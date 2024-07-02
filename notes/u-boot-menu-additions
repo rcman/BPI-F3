@@ -67,4 +67,4 @@ CONFIG_SPL_FS_FAT=y or CONFIG_SPL_FS_EXT=y
 CONFIG_SPL_FS_LOAD_PAYLOAD_NAME=”<filepath>”
 
 
-
+https://docs.u-boot.org/en/latest/usage/environment.html#image-locations
