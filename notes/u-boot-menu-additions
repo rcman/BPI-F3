@@ -5,3 +5,10 @@ To get U-Menu to work add these commands.
 CONFIG_AUTOBOOT_KEYED=y
 CONFIG_BOOTDELAY=30
 CONFIG_AUTOBOOT_MENU_SHOW=y
+
+
+
+To scan the discoverable devices connected to the buses such as USB and PCIe prior to bootmenu showing up, CONFIG_PREBOOT can be used to run the command before showing the bootmenu, i.e.:
+
+CONFIG_USE_PREBOOT=y
+CONFIG_PREBOOT="pci enum; usb start; scsi scan; nvme scan; virtio scan"
