@@ -188,7 +188,23 @@ To load from a file system use:
 <br>
 CONFIG_SPL_FS_FAT=y or CONFIG_SPL_FS_EXT=y
 <br>
-CONFIG_SPL_FS_LOAD_PAYLOAD_NAME=”<filepath>”
+CONFIG_SPL_FS_LOAD_PAYLOAD_NAME=”<filepath>”<br>
+
+Using binman
+Example use of binman in U-Boot
+Binman aims to replace some of the ad-hoc image creation in the U-Boot build system.
+
+Consider sunxi. It has the following steps:
+
+It uses a custom mksunxiboot tool to build an SPL image called sunxi-spl.bin. This should probably move into mkimage.
+
+It uses mkimage to package U-Boot into a legacy image file (so that it can hold the load and execution address) called u-boot.img.
+
+It builds a final output image called u-boot-sunxi-with-spl.bin which consists of sunxi-spl.bin, some padding and u-boot.img.
+
+Binman is intended to replace the last step. The U-Boot build system builds u-boot.bin and sunxi-spl.bin. Binman can then take over creation of sunxi-spl.bin by calling mksunxiboot or mkimage. In any case, it would then create the image from the component parts.
+
+This simplifies the U-Boot Makefile somewhat, since various pieces of logic can be replaced by a call to binman.
 <br>
 CONFIG_SPL_NVME=y
 <br>
