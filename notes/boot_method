@@ -1,0 +1,36 @@
+Boot process
+U-Boot tries to use the ‘lazy init’ approach wherever possible and distro boot is no exception. The algorithm is:
+
+while (get next bootdev)
+   while (get next bootmeth)
+       while (get next bootflow)
+           try to boot it
+So U-Boot works its way through the bootdevs, trying each bootmeth in turn to obtain bootflows, until it either boots or exhausts the available options.
+
+Instead of 500 lines of #defines and a 4KB boot script, all that is needed is the following command:
+
+bootflow scan -lb
+which scans for available bootflows, optionally listing each find it finds (-l) and trying to boot it (-b).
+
+When global bootmeths are available, these are typically checked before the above bootdev scanning.
+
+Controlling ordering
+By default, faster bootdevs (or those which are assumed to be faster) are used first, since they are more likely to be able to boot the device quickly.
+
+Several options are available to control the ordering of boot scanning:
+
+boot_targets
+This environment variable can be used to control the list of bootdevs searched and their ordering, for example:
+
+setenv boot_targets "mmc0 mmc1 usb pxe"
+Entries may be removed or re-ordered in this list to affect the boot order. If the variable is empty, the default ordering is used, based on the priority of bootdevs and their sequence numbers.
+
+bootmeths
+By default bootmeths are checked in name order. Use bootmeth list to see the ordering. Note that the extlinux and script bootmeth is first, to preserve the behaviour used by the old distro scripts.
+
+This environment variable can be used to control the list of bootmeths used and their ordering for example:
+
+setenv bootmeths "extlinux efi"
+Entries may be removed or re-ordered in this list to affect the order the bootmeths are tried on each bootdev. If the variable is empty, the default ordering is used, based on the bootmeth sequence numbers, which can be controlled by aliases.
+
+The bootmeth command (bootmeth order) operates in the same way as setting this variable.
