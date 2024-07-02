@@ -1,10 +1,11 @@
 export ARCH=riscv
 export CROSS_COMPILE=riscv64-linux-
-~/u-boot-riscv/tools/mkimage -A riscv -0 linux -T kernel -C none a 0x80200000 -e 0x80200000 -n Linux -d ~/freedom-u-sdk/work/linux/arch/riscv/boot/Image ~/freedom-u-sdk/work/linux/arch/riscv/boot/uImage cp /scratch/workspace/freedom-u-sdk/work/linux/arch/riscv/boot/uImage /tftpboot/
+mkimage -A riscv -0 linux -T kernel -C none a 0x80200000 -e 0x80200000 -n Linux -d Image uImage 
+cp uImage /tftpboot/
 make PLATFORM=sifive/fu540 FW_PAYLOAD_PATH=Image
-sudo dd if=build/platform/sifive/fu540/firmware/fw_payload.bin of=/dev/sdal bs=1024
-make PLATFORM=sifive/fu540 FW_PAYLOAD_PATH=~/u-boot-riscv/u-boot.bin FU540_ENABLED_HART_MASK=0X02
-sudo dd if=build/platform/sifive/fu540/firmware/fw_payload.bin of=/dev/sdbl bs=1024
+sudo dd if=fw_payload.bin of=/dev/sdal bs=1024
+make PLATFORM=sifive/fu540 FW_PAYLOAD_PATH=u-boot.bin FU540_ENABLED_HART_MASK=0X02
+sudo dd if=fw_payload.bin of=/dev/sdbl bs=1024
 <Once at U-Boot prompt>
 petenv ethaddr 70: B3:D5:92:F0:C2
 setenv ipaddr 192.168.0.5
