@@ -1,0 +1,7 @@
+To get U-Menu to work add these commands.
+
+
+
+CONFIG_AUTOBOOT_KEYED=y
+CONFIG_BOOTDELAY=30
+CONFIG_AUTOBOOT_MENU_SHOW=y
