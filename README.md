@@ -160,7 +160,35 @@ This methods load the image from an NVMe drive. Required configuration settings 
 <br>
 CONFIG_SPL_PCI=y
 <br>
+CONFIG_SPL_PCI_PNP=y<br>
+<br>
+**Things I need to check or remove**
+<br>
+Things I want to remove
+<br>
+Loading from block devices<br>
+MMC1, MMC2, MMC2_2<br>
+These methods read an image from SD card or eMMC. The first digit after ‘MMC’ indicates the device number. Required configuration settings include:<br>
+<br>
+CONFIG_SPL_MMC=y or CONFIG_TPL_MMC=y
+<br>
+To use a PCI connected MMC controller you need to additionally specify:
+<br>
+CONFIG_SPL_PCI=y
+<br>
 CONFIG_SPL_PCI_PNP=y
+<br>
+CONFIG_MMC=y
+<br>
+CONFIG_MMC_PCI=y
+<br>
+CONFIG_MMC_SDHCI=y
+<br>
+To load from a file system use:
+<br>
+CONFIG_SPL_FS_FAT=y or CONFIG_SPL_FS_EXT=y
+<br>
+CONFIG_SPL_FS_LOAD_PAYLOAD_NAME=”<filepath>”
 <br>
 CONFIG_SPL_NVME=y
 <br>
