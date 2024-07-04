@@ -220,5 +220,18 @@ https://docs.u-boot.org/en/latest/arch/riscv.html
 <br>
 https://github.com/riscv-software-src/opensbi/blob/master/docs/firmware/fw_payload.md
 <br>
-
+<br>
+**FINALLY** 
+<br>
+After posting on the BPI-F3 forum Patrick came through for me. He gave me a link to his GITHUB which allows you to boot from NVME. The link to the conversation and his GitHub below.
+<br>
+**Conversation**
+<br>
+https://forum.banana-pi.org/t/booting-u-boot-kernel-etc/18408/5
+<br>
+**Patrick's Github**
+<br>
+https://github.com/pyavitz/debian-image-builder/tree/feature/patches/uboot/v2022.10/bananapif3
+<br>
+I will try this tonight after work.
 
