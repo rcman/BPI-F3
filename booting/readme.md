@@ -7,7 +7,9 @@ https://krinkinmu.github.io/2023/08/21/how-u-boot-loads-linux-kernel.html
 https://serhack.me/articles/os-embedded-booting-phase-uboot/
 <br>
 <br>
-
+https://github.com/riscv-software-src/opensbi/tree/master/docs/firmware
+<br>
+<br>
 
 
 
