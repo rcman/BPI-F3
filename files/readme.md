@@ -2,6 +2,8 @@
 <br>
 The binary compressed files contains the files needed for below.<br>
 
+notrunc is only important to prevent truncation when writing into a file. This has no effect on a block device such as sda or sdb.<br>
+
 
 There seems to be diff ways and combinations of flashing the bins, but this is how I do it.
 
