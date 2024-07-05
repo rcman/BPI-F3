@@ -1,3 +1,12 @@
+**Links**
+
+<br>
+https://krinkinmu.github.io/2023/08/21/how-u-boot-loads-linux-kernel.html
+<br>
+
+
+
+
 **How u-boot works**
 <br>
 Bootscript
