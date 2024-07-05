@@ -1,3 +1,8 @@
+**Notes**<br>
+<br>
+The binary compressed files contains the file needed for below.<br>
+
+
 There seems to be diff ways and combinations of flashing the bins, but this is how I do it.
 
 EMMC
