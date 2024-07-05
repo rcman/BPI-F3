@@ -3,6 +3,11 @@
 <br>
 https://krinkinmu.github.io/2023/08/21/how-u-boot-loads-linux-kernel.html
 <br>
+<br>
+https://serhack.me/articles/os-embedded-booting-phase-uboot/
+<br>
+<br>
+
 
 
 
