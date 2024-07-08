@@ -4,7 +4,7 @@ So how this works, if you run the shell command by itself it will show how to ru
 doing this for the first time. 
 <br>
 <br>
-Uncompress your initrd by running the script with -u. When you run this it will uncompress it to the initrd-tree directory/  Change in to that directory make your changes, once done re-compress it with -r.  That's it.  I'm sure it could be modified to accept whatever your initrd is called but I just never did it.
+Uncompress your initrd by running the script with -u. When you run this it will uncompress it to the initrd-tree directory.  Change in to that directory make your changes, once done re-compress it with -r.  That's it.  I'm sure it could be modified to accept whatever your initrd is called but I just never did it.
 <br>
 <br>
 Franco
