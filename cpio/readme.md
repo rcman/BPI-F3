@@ -8,4 +8,12 @@ doing this for the first time.
 Uncompress your initrd by running the script with -u. When you run this it will uncompress it to the initrd-tree directory.  Change in to that directory make your changes, once done re-compress it with -r.  That's it.  I'm sure it could be modified to accept whatever your initrd is called but I just never did it.
 <br>
 <br>
+
+https://wiki.ubuntu.com/CustomizeLiveInitrd
+
+<br>
+<br>
+
+
+
 Franco
