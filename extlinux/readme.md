@@ -17,3 +17,14 @@ EXTLINUX is a new syslinux derivative, which boots from a Linux ext2/ext3 filesy
 The installer is designed to be run on a mounted directory. For example, if you have an ext2 or ext3 usb key mounted on /mnt, you can run the following command:
 
 extlinux --install /mnt
+<br>
+This is the extlinux from latest Ubuntu Trusty BTW:
+
+% apt-cache policy extlinux
+extlinux:
+Installed: 3:4.05+dfsg-6+deb8u1
+Candidate: 3:4.05+dfsg-6+deb8u1
+Version table:
+*** 3:4.05+dfsg-6+deb8u1 0
+500 http://us.archive.ubuntu.com/ubuntu/ trusty/universe amd64 Packages
+100 /var/lib/dpkg/status
