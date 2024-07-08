@@ -47,3 +47,5 @@ sync
 <br>
 dd if=/usr/share/syslinux/mbr.bin of=/dev/sda bs=512 count=1
 <br>
+<br>
+https://wiki.archlinux.org/title/syslinux#Configuration
