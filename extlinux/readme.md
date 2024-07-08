@@ -31,3 +31,19 @@ Version table:
 <br>
 <br>
 https://edoceo.com/sys/extlinux
+<br>
+<br>
+So it looks like this take the place of the FSBL.bin which is DD to the partition from their docs
+<br>
+**Notes from BPI-F3 site**
+<br>
+echo 0 | sudo tee /sys/block/mmcblk2boot0/force_ro<br>
+sudo dd if=bootinfo_emmc.bin of=/dev/mmcblk2boot0<br>
+**sudo dd if=FSBL.bin of=/dev/mmcblk2boot0 seek=512 bs=1**
+<br>
+sync
+<br>
+**ExtLinux boot**
+<br>
+dd if=/usr/share/syslinux/mbr.bin of=/dev/sda bs=512 count=1
+<br>
