@@ -30,3 +30,8 @@ dd if="fw_dynamic.itb" of="/dev/mmcblk0" bs=512 seek=1280 conv=notrunc<br>
 dd if="u-boot.itb" of="/dev/mmcblk0" bs=512 seek=2048 conv=notrunc<br>
 sync<br>
 <br>
+<br>
+Boot tools
+<br>
+usb-creator-gtk
+<br>
