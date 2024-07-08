@@ -6,4 +6,5 @@ doing this for the first time.
 <br>
 Uncompress your initrd by running the script with -u, make the changes to it and then just run the shell with -r to compress it.  That's it.  I'm sure it could be modified to accept whatever your initrd is called but I just never did it.
 <br>
+<br>
 Franco
