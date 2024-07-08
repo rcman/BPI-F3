@@ -4,6 +4,6 @@ So how this works, if you run the shell command by itself it will show how to ru
 doing this for the first time. 
 <br>
 <br>
-Uncompress your initrd by running the script with -U, make the changes to it and then just run the shell with -c to compress it.  That's it.  I'm sure it could be modified to accept whatever your initrd is called but I just never did it.
+Uncompress your initrd by running the script with -u, make the changes to it and then just run the shell with -r to compress it.  That's it.  I'm sure it could be modified to accept whatever your initrd is called but I just never did it.
 <br>
 Franco
