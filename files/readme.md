@@ -35,3 +35,21 @@ Boot tools
 <br>
 usb-creator-gtk
 <br>
+There is probably a language barrier. I think we have different native languages, but the search method you tried did not work for me, yet the tool is there with a 'translated' name (for me 'Skapa uppstartsdisk'). But the file name usb-creator-gtk can be found, actually it is enough to type "usb" in the search window to find it. See the screenshot (where also 'my own' mkusb tools are shown).
+
+You can also find it by the following command line in a terminal window,
+
+which usb-creator-gtk
+and run it with the command
+
+usb-creator-gtk
+enter image description here
+
+Edit 1: If for some reason there is no Startup Disk Creator in your system, you can install it with
+
+sudo apt update
+sudo apt install usb-creator-gtk
+and the current version (0.3.13, now, 2022-06-23, in Ubuntu 22.04 LTS) can be found by
+
+sudo apt-cache policy usb-creator-gtk
+Edit 2: If you install a minimal Ubuntu system, there will be no Startup Disk Creator. Thanks to the original poster of this thread, Saeed Neamati, for sharing this observation :-)
