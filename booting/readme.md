@@ -55,3 +55,24 @@ For example, to create the bootscript from the text file above and for a Connect
 platform, go to the U-Boot directory and execute:
 $ tools/mkimage -T script -n “Bootscript” -C none -d myscript.txt
 cme9210js-bootscript
+
+
+<br>
+<br>
+
+https://hackweek.opensuse.org/20/projects/risc-v-deep-dive
+<br>
+<br>
+https://embeddedinn.com/articles/tutorial/RISCV-Uncovering-the-Mysteries-of-Linux-Boot-on-RISC-V-QEMU-Machines/
+<br>
+<br>
+https://www.sifive.com/blog/all-aboard-part-6-booting-a-risc-v-linux-kernel
+
+<br>
+<br>
+https://www.thegoodpenguin.co.uk/blog/an-overview-of-opensbi/
+<br>
+<br>
+https://github.com/riscv-software-src/opensbi/blob/master/docs/firmware/fw.md
+<br>
+<br>
