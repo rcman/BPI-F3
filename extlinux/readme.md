@@ -49,3 +49,6 @@ dd if=/usr/share/syslinux/mbr.bin of=/dev/sda bs=512 count=1
 <br>
 <br>
 https://wiki.archlinux.org/title/syslinux#Configuration
+<br>
+<br>
+https://wiki.archlinux.org/title/syslinux#Chainloading_other_Linux_systems
