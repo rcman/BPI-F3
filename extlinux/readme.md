@@ -59,3 +59,15 @@ https://superuser.com/questions/743802/how-to-boot-linux-with-extlinux
 https://shallowsky.com/linux/extlinux.html
 <br>
 https://edoceo.com/sys/extlinux
+<br>
+**Ubuntu specific**
+<br>
+https://manpages.ubuntu.com/manpages/focal/man1/extlinux.1.html
+<br>
+
+https://www.funtoo.org/Extlinux
+<br>
+https://www.syslinux.org/old/extlinux.php
+<br>
+
+
