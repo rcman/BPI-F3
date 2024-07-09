@@ -99,4 +99,11 @@ append initrd=../initrd.img-3.16.0-4-amd64 root=/dev/vda1 console=tty0 console=t
 note the path are right in a box in which /boot is not a partition on its own (it is part of / partition).
 
 If the kernel image is too large, use the keyword linux (not kernel).
+<br>
+https://shallowsky.com/blog/linux/install/extlinux-debian.html
+<br>
+https://wiki.tinycorelinux.net/doku.php?id=wiki:extlinux
+
+
+
 
