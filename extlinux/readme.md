@@ -79,6 +79,7 @@ https://unix.stackexchange.com/questions/530777/how-do-i-install-the-syslinux-pa
 <br>
 https://serverfault.com/questions/755745/kernel-upgrade-with-extlinux-on-debian
 <br>
+<br>
 There is nothing different introduced by Debian: install extlinux as usual with:
 
 extlinux --install /boot/extlinux
