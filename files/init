@@ -13,18 +13,29 @@ export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 [ -d /sys ] || mkdir /sys
 [ -d /proc ] || mkdir /proc
 [ -d /tmp ] || mkdir /tmp
-echo"Franco Shit"
-sleep 10
-sudo mkdir /franco
-sudo mount /dev/nvmen1p2 /franco
-sudo mount -B / franco
+echo "Franco Shit"
+sleep 25
+mkdir /franco
+mount /dev/nvmen1p2 /franco
+
+ls -l /dev/nvme*
+
+echo "looking at directories"
+sleep 25
+mount -B / franco
 
 sudo chroot /franco
 
-echo "Ran Command"
-sleep 10
+echo "I ran the command"
+sleep 25
 
 mkdir -p /var/lock
+mount -t sysfs -o nodev,noexec,nosuid sysfs /sys
+mount -t proc -o nodev,noexec,nosuid proc /proc
+
+sudo chroot /franco
+
+
 mount -t sysfs -o nodev,noexec,nosuid sysfs /sys
 mount -t proc -o nodev,noexec,nosuid proc /proc
 
