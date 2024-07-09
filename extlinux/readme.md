@@ -103,6 +103,11 @@ If the kernel image is too large, use the keyword linux (not kernel).
 https://shallowsky.com/blog/linux/install/extlinux-debian.html
 <br>
 https://wiki.tinycorelinux.net/doku.php?id=wiki:extlinux
+<br>
+**How extlinux boots to a partition name**
+
+<br>
+https://docs.kontron-electronics.de/sw/yocto/build-stm32mp/booting-an-image.html
 
 
 
