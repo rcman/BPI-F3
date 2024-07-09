@@ -52,3 +52,10 @@ https://wiki.archlinux.org/title/syslinux#Configuration
 <br>
 <br>
 https://wiki.archlinux.org/title/syslinux#Chainloading_other_Linux_systems
+**Docs**
+<br>
+https://superuser.com/questions/743802/how-to-boot-linux-with-extlinux
+<br>
+https://shallowsky.com/linux/extlinux.html
+<br>
+https://edoceo.com/sys/extlinux
