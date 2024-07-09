@@ -113,7 +113,10 @@ https://docs.kontron-electronics.de/sw/yocto/build-stm32mp/booting-an-image.html
 **Extensive Extlinux Config**
 <br>
 https://github.com/ARM-software/u-boot/blob/master/doc/README.distro
-
+<br>
+**Must Have Link**
+<br>
+https://forum.pine64.org/showthread.php?tid=9760
 
 
 
