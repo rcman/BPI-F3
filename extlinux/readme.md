@@ -108,6 +108,11 @@ https://wiki.tinycorelinux.net/doku.php?id=wiki:extlinux
 
 <br>
 https://docs.kontron-electronics.de/sw/yocto/build-stm32mp/booting-an-image.html
+<br>
+
+**Extensive Extlinux Config**
+<br>
+https://github.com/ARM-software/u-boot/blob/master/doc/README.distro
 
 
 
