@@ -71,5 +71,31 @@ https://www.syslinux.org/old/extlinux.php
 <br>
 https://manpages.debian.org/stretch/extlinux/extlinux.1.en.html
 <br>
+**Debian extlinux**
+<br>
+https://manpages.debian.org/stretch/extlinux/extlinux.1.en.html
+<br>
+https://unix.stackexchange.com/questions/530777/how-do-i-install-the-syslinux-package-on-debian-stretch
+<br>
+https://serverfault.com/questions/755745/kernel-upgrade-with-extlinux-on-debian
+<br>
+There is nothing different introduced by Debian: install extlinux as usual with:
 
+extlinux --install /boot/extlinux
+make sure kernel image is present with matching initrd;
+
+create a /boot/extlinux/extlinux.conf file like:
+
+default linux
+timeout 1
+label linux
+linux ../vmlinuz-4.4.0
+append initrd=../initrd.img-4.4.0 root=/dev/vda1 console=tty0 console=ttyS0,115200 ro quiet
+
+label linux-stock
+kernel ../vmlinuz-3.16.0-4-amd64
+append initrd=../initrd.img-3.16.0-4-amd64 root=/dev/vda1 console=tty0 console=ttyS0,115200 ro quiet
+note the path are right in a box in which /boot is not a partition on its own (it is part of / partition).
+
+If the kernel image is too large, use the keyword linux (not kernel).
 
