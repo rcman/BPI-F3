@@ -69,5 +69,7 @@ https://www.funtoo.org/Extlinux
 <br>
 https://www.syslinux.org/old/extlinux.php
 <br>
+https://manpages.debian.org/stretch/extlinux/extlinux.1.en.html
+<br>
 
 
