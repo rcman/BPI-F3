@@ -93,3 +93,13 @@ More to added soon<br>
 <br>
 Download Ubuntu RISC-V Server Image from Ubuntu
 <br>
+You need to be able to connect to the Debug console from the BPI-F3 for this to work<br>
+<br>
+Insert a blank SD Card in your machine<br>
+Run these commands<br>
+pci enum<br>
+nvme scan<br>
+load mmc 1:1 $fdt_addr_r dtb/k1-x_deb1.dtb<br>
+load mmc 1:1 $kernel_addr_r<br>
+bootm $kernel_addr_r $fdt_addr_r<br>
+<br>
