@@ -91,6 +91,12 @@ booti ${kernel_addr_r} ${ramdisk_addr_r}:${ramdisk_size} ${fdt_addr_r}<br>
 More to added soon<br>
 ## Booting Ubuntu RISC-V
 <br>
+Copying Ubuntu onto the SD-card
+Download the Ubuntu live install server image and flash it onto your sdcard using:
+
+zcat ubuntu-23.10-live-server-riscv64.img.gz | sudo dd of=/dev/sdX bs=1M conv=fsync
+You will have to replace /dev/sdX by the actual device name of your SD card. Please, be especially cautious not to overwrite the wrong drive as this cannot be undone.
+<br>
 Download Ubuntu RISC-V Server Image from Ubuntu
 <br>
 You need to be able to connect to the Debug console from the BPI-F3 for this to work<br>
