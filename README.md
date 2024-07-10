@@ -95,16 +95,3 @@ printenv tftp_server
 ## Save it for future reboots
 saveenv
 
-## Assume Initial RAM Disk is max 16 MB
-setenv ramdisk_size 0x1000000
-## Check that it's correct
-printenv ramdisk_size
-## Save it for future reboots
-saveenv
-
-## Add the Boot Command for TFTP
-setenv bootcmd_tftp 'if tftpboot ${kernel_addr_r} ${tftp_server}:Image ; then if tftpboot ${fdt_addr_r} ${tftp_server}:jh7110-star64-pine64.dtb ; then if fdt addr ${fdt_addr_r} ; then if tftpboot ${ramdisk_addr_r} ${tftp_server}:initrd ; then booti ${kernel_addr_r} ${ramdisk_addr_r}:${ramdisk_size} ${fdt_addr_r} ; fi ; fi ; fi ; fi'
-## Check that it's correct
-printenv bootcmd_tftp
-## Save it for future reboots
-saveenv
