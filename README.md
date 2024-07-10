@@ -91,6 +91,8 @@ booti ${kernel_addr_r} ${ramdisk_addr_r}:${ramdisk_size} ${fdt_addr_r}<br>
 More to added soon<br>
 ## Booting Ubuntu RISC-V
 <br>
+<br>
+You need to be able to connect to the Debug console from the BPI-F3 for this to work<br>
 Insert a blank SD Card in your machine<br>
 
 Copying Ubuntu onto the SD-card<br>
@@ -98,10 +100,7 @@ Download the Ubuntu preinstalled server image from https://cdimage.ubuntu.com/re
 
 zcat ubuntu-23.10-live-server-riscv64.img.gz | sudo dd of=/dev/sdX bs=1M conv=fsync<br>
 You will have to replace /dev/sdX by the actual device name of your SD card. Please, be especially cautious not to overwrite the wrong drive as this cannot be undone.<br>
-<br>
-Download Ubuntu RISC-V Server Image from Ubuntu
-<br>
-You need to be able to connect to the Debug console from the BPI-F3 for this to work<br>
+
 <br>
 Insert a blank SD Card in your machine<br>
 Run these commands<br>
@@ -114,12 +113,8 @@ bootm $kernel_addr_r $fdt_addr_r<br>
 
 **Depending on the U-Boot version the SD-card might show up as mmc device 0. In this case you would have to use mmc 0:1.)**
 <br>
-Loading the installer takes some time. Once it is loaded follow the installation steps in https://ubuntu.com/tutorials/install-ubuntu-server.
-
 When the installation is finished reboot the board without removing the SD card.
-
 U-Boot does not allow the operating system to write UEFI variables. You can do this manually. While rebooting press the enter key when seeing the Hit any key to stop autoboot: message. The following commands set up the installation on the NVMe drive as UEFI boot option 0001.
-
 
 pci enum
 nvme scan
