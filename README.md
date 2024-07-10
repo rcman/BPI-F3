@@ -19,9 +19,10 @@ The ran make Image  (completed)
 then ran make modules (completed)
 
 This is a work in progress.
-
+<br>
+<br>
 **Updated June 20th**
-
+<br>
 https://www.fw-web.de/dokuwiki/doku.php?id=en:bpi-r3:uboot
 <br>
 https://fw-web.de/dokuwiki/
