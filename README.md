@@ -51,4 +51,9 @@ Thanks
 [Notes](notes/readme.md)<br>
 [Partition](partition/readme.md)
 <br>
-**Something new I found**
+**July 10th**
+<br>
+As always I've been reading, trying things out. Found some interesing docs from the Star64 Board. Not about the board but the instructions on how to get it working. Which should work for the BPI-f3.
+<br>
+Here's the break Down. I will change the docs to refect the values on the BPI-F3<br>
+
