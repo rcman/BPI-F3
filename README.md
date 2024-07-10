@@ -108,21 +108,3 @@ setenv bootcmd_tftp 'if tftpboot ${kernel_addr_r} ${tftp_server}:Image ; then if
 printenv bootcmd_tftp
 ## Save it for future reboots
 saveenv
-
-## Test the Boot Command for TFTP, then reboot
-run bootcmd_tftp
-
-## Remember the Original Boot Targets
-setenv orig_boot_targets "$boot_targets"
-## Should show `mmc0 dhcp`
-printenv boot_targets
-## Save it for future reboots
-saveenv
-
-## Add TFTP to the Boot Targets
-setenv boot_targets "$boot_targets tftp"
-## Should show `mmc0 dhcp  tftp`
-printenv boot_targets
-## Save it for future reboots
-saveenv
-
