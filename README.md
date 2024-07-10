@@ -61,4 +61,11 @@ Thanks
 As always I've been reading, trying things out. Found some interesing docs from the Star64 Board. Not about the board but the instructions on how to get it working. Which should work for the BPI-f3.
 <br>
 Here's the break Down. I will change the docs to refect the values on the BPI-F3<br>
+**Updated TFTP Notes**
+<br>
+You will need the Device Tree for BPI-F3 (dtb file)(usually can be found in the boot directory in dtb or spacemit directory<br>
+## Test the Device Tree over TFTP
+## TODO: Change `192.168.x.x` to our Computer's IP Address
+curl -v tftp://192.168.x.x/k1-x_deb1.dtb (or whatever the name is)<br>
+
 
