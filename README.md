@@ -76,10 +76,16 @@ curl -v tftp://192.168.x.x/initrd
 ## We can run the TFTP commands manually by just running copy and paste.
 <br>
 setenv tftp_server 192.168.x.x<br>
+setenv kernel+addr_r=0x40200000<br>
 setenv ramdisk_size 0x1000000<br>
+setenv fdt_addr_r=0x46000000<br>
+fdt addr ${fdt_addr_r}<br>
+
 ## Load the kernel from the TFTP<br>
-## kernel_addr_r=0x40200000<br>
-## tftp_server=192.168.x.x<br>
 tftpboot ${kernel_addr_r} ${tftp_server}:Image<br>
+tftpboot ${fdt_addr_r} ${tftp_server}:k1-x_deb1.dtb<br>
+tftpboot ${ramdisk_addr_r} ${tftp_server}:initrd<br>
+## Boot
+booti ${kernel_addr_r} ${ramdisk_addr_r}:${ramdisk_size} ${fdt_addr_r}<br>
 
 
