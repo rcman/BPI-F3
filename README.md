@@ -18,7 +18,8 @@ The ran make menuconfig to see if it would work. It did
 The ran make Image  (completed)
 then ran make modules (completed)
 
-This is a work in progress.
+This is a work in progress.<br>
+<br>
 
 <br>
 <br>
