@@ -87,4 +87,9 @@ tftpboot ${fdt_addr_r} ${tftp_server}:k1-x_deb1.dtb<br>
 tftpboot ${ramdisk_addr_r} ${tftp_server}:initrd<br>
 ## Boot
 booti ${kernel_addr_r} ${ramdisk_addr_r}:${ramdisk_size} ${fdt_addr_r}<br>
-
+<br>
+More to added soon<br>
+## Booting Ubuntu RISC-V
+<br>
+Download Ubuntu RISC-V Server Image from Ubuntu
+<br>
