@@ -102,7 +102,6 @@ zcat ubuntu-23.10-live-server-riscv64.img.gz | sudo dd of=/dev/sdX bs=1M conv=fs
 You will have to replace /dev/sdX by the actual device name of your SD card. Please, be especially cautious not to overwrite the wrong drive as this cannot be undone.<br>
 
 <br>
-Insert a blank SD Card in your machine<br>
 Run these commands<br>
 pci enum<br>
 nvme scan<br>
