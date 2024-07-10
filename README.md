@@ -79,7 +79,7 @@ setenv tftp_server 192.168.x.x<br>
 setenv kernel+addr_r=0x40200000<br>
 setenv ramdisk_size 0x1000000<br>
 setenv fdt_addr_r=0x46000000<br>
-fdt addr ${fdt_addr_r}<br>
+setenv fdt addr ${fdt_addr_r}<br>
 
 ## Load the kernel from the TFTP<br>
 tftpboot ${kernel_addr_r} ${tftp_server}:Image<br>
