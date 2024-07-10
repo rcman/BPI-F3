@@ -51,7 +51,7 @@ Thanks
 [Notes](notes/readme.md)<br>
 [Partition](partition/readme.md)
 <br>
-**I put all my previous notes in the notes directory**
+**I put all my previous notes in the notes directory. Just the updated notes will go here**
 <br>
 <br>
 
