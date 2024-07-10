@@ -67,5 +67,19 @@ You will need the Device Tree for BPI-F3 (dtb file)(usually can be found in the 
 ## Test the Device Tree over TFTP
 ## TODO: Change `192.168.x.x` to our Computer's IP Address
 curl -v tftp://192.168.x.x/k1-x_deb1.dtb (or whatever the name is)<br>
+<br>
+Copy your initrd to your tftp server<br>
+## Test the initrd over TFTP
+<br>
+curl -v tftp://192.168.x.x/initrd
+<br>
+## We can run the TFTP commands manually by just running copy and paste.
+<br>
+setenv tftp_server 192.168.x.x<br>
+setenv ramdisk_size 0x1000000<br>
+## Load the kernel from the TFTP<br>
+## kernel_addr_r=0x40200000<br>
+## tftp_server=192.168.x.x<br>
+tftpboot ${kernel_addr_r} ${tftp_server}:Image<br>
 
 
