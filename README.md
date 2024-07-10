@@ -103,3 +103,6 @@ load mmc 1:1 $fdt_addr_r dtb/k1-x_deb1.dtb<br>
 load mmc 1:1 $kernel_addr_r<br>
 bootm $kernel_addr_r $fdt_addr_r<br>
 <br>
+
+**Depending on the U-Boot version the SD-card might show up as mmc device 0. In this case you would have to use mmc 0:1.)**
+<br>
