@@ -106,3 +106,16 @@ bootm $kernel_addr_r $fdt_addr_r<br>
 
 **Depending on the U-Boot version the SD-card might show up as mmc device 0. In this case you would have to use mmc 0:1.)**
 <br>
+Loading the installer takes some time. Once it is loaded follow the installation steps in https://ubuntu.com/tutorials/install-ubuntu-server.
+
+When the installation is finished reboot the board without removing the SD card.
+
+U-Boot does not allow the operating system to write UEFI variables. You can do this manually. While rebooting press the enter key when seeing the Hit any key to stop autoboot: message. The following commands set up the installation on the NVMe drive as UEFI boot option 0001.
+
+
+pci enum
+nvme scan
+efidebug boot add -b 0001 'Ubuntu' nvme 0:1 /EFI/ubuntu/grubriscv64.efi
+efidebug boot order 0001
+To boot into your fresh installation you can use:
+bootefi bootmgr
