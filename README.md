@@ -236,4 +236,11 @@ https://forum.banana-pi.org/t/booting-u-boot-kernel-etc/18408/5
 https://github.com/pyavitz/debian-image-builder/tree/feature/patches/uboot/v2022.10/bananapif3
 <br>
 I will try this tonight after work.
+**July 10th**
+<br>
+As always I've been reading, trying things out. Found some interesing docs from the Star64 Board. Not about the board but the instructions on how to get it working. Which should work for the BPI-f3.
+<br>
+Here's the break Down. I will change the docs to refect the values on the BPI-F3<br>
+
+
 
