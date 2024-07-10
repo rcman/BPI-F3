@@ -51,6 +51,11 @@ Thanks
 [Notes](notes/readme.md)<br>
 [Partition](partition/readme.md)
 <br>
+**I put all my previous notes in the notes directory**
+<br>
+<br>
+
+
 **July 10th**
 <br>
 As always I've been reading, trying things out. Found some interesing docs from the Star64 Board. Not about the board but the instructions on how to get it working. Which should work for the BPI-f3.
