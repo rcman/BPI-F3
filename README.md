@@ -94,7 +94,7 @@ More to added soon<br>
 Insert a blank SD Card in your machine<br>
 
 Copying Ubuntu onto the SD-card<br>
-Download the Ubuntu live install server image and flash it onto your sdcard using:<br>
+Download the Ubuntu preinstalled server image from https://cdimage.ubuntu.com/releases/23.04/release/ and flash it on your sdcard using:<br>
 
 zcat ubuntu-23.10-live-server-riscv64.img.gz | sudo dd of=/dev/sdX bs=1M conv=fsync<br>
 You will have to replace /dev/sdX by the actual device name of your SD card. Please, be especially cautious not to overwrite the wrong drive as this cannot be undone.<br>
