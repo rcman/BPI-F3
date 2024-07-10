@@ -87,11 +87,4 @@ tftpboot ${fdt_addr_r} ${tftp_server}:k1-x_deb1.dtb<br>
 tftpboot ${ramdisk_addr_r} ${tftp_server}:initrd<br>
 ## Boot
 booti ${kernel_addr_r} ${ramdisk_addr_r}:${ramdisk_size} ${fdt_addr_r}<br>
-## Remember the TFTP Server IP.
-## TODO: Change `192.168.x.x` to our Computer's IP Address
-setenv tftp_server 192.168.x.x
-## Check that it's correct
-printenv tftp_server
-## Save it for future reboots
-saveenv
 
