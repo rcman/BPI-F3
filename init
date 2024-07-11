@@ -1,0 +1,47 @@
+#!/bin/sh
+
+# Default PATH differs between shells, and is not automatically exported
+# by klibc dash.  Make it consistent.
+# Furthermore, this PATH ends up being used by the init, set it to the
+# Standard PATH, without /snap/bin as documented in
+# https://wiki.ubuntu.com/PATH
+# This also matches /etc/environment, but without games path
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+
+[ -d /dev ] || mkdir -m 0755 /dev
+[ -d /root ] || mkdir -m 0700 /root
+[ -d /sys ] || mkdir /sys
+[ -d /proc ] || mkdir /proc
+[ -d /tmp ] || mkdir /tmp
+
+
+
+mount -t devtmpfs -o nosuid,mode=0755 udev /dev
+
+mount -t proc -o nodev,noexec,nosuid proc /proc
+
+echo "scanning for devs....."
+echo "Franco Shit"
+mkdir /tmp/franco
+#mount -t ext4 /dev/nvme0n1p1 /tmp/franco
+ls -l /tmp/*
+#sleep 15
+#ls -l /dev/nvme*
+
+echo "looking at directories"
+sleep 25
+
+echo "I ran the command"
+
+mkdir -p /var/lock
+mount -t sysfs -o nodev,noexec,nosuid sysfs /sys
+mount -t proc -o nodev,noexec,nosuid proc /proc
+
+chroot /tmp/franco /
+
+mount -t sysfs -o nodev,noexec,nosuid sysfs /sys
+mount -t proc -o nodev,noexec,nosuid proc /proc
+mount -t devtmpfs -o nosuid,mode=0755 udev /dev
+
+/bin/bash -i
+
