@@ -15,7 +15,6 @@ export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 [ -d /tmp ] || mkdir /tmp
 
 
-
 mount -t devtmpfs -o nosuid,mode=0755 udev /dev
 
 mount -t proc -o nodev,noexec,nosuid proc /proc
@@ -23,13 +22,11 @@ mount -t proc -o nodev,noexec,nosuid proc /proc
 echo "scanning for devs....."
 echo "Franco Shit"
 mkdir /tmp/franco
-mount -t ext4 /dev/nvme0n1p2 /tmp/franco
+mount -t ext4 /dev/nvme0n1p1 /tmp/franco
 ls -l /tmp/*
-sleep 15
 ls -l /dev/nvme*
 
 echo "looking at directories"
-sleep 25
 
 echo "I ran the command"
 
@@ -43,15 +40,5 @@ mount -t sysfs -o nodev,noexec,nosuid sysfs /sys
 mount -t proc -o nodev,noexec,nosuid proc /proc
 mount -t devtmpfs -o nosuid,mode=0755 udev /dev
 
-# shellcheck disable=SC2013
-for x in $(cat /proc/cmdline); do
-	case $x in
-	initramfs.clear)
-		clear
-		/bin/bash
-		;;
-	quiet)
-		quiet=n
-		;;
-	esac
-done
+/bin/bash -i
+
