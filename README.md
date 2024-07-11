@@ -123,3 +123,17 @@ efidebug boot order 0001<br>
 To boot into your fresh installation you can use:<br>
 bootefi bootmgr<br>
 <br>
+##GREAT NEWS!##
+Well on some good news I finally got Ubuntu 24.04 booted on my board.
+
+I’m writing the docs on it not but basically I change the initrd file and chroot to the ubuntu root which continues to boot from the NVME.
+
+I have a copy of the init file on my GitHub in the files directory. I also have my scripts that compresses and decompresses the initrd file so you don’t need to do that manually.
+
+The short story is I downloaded Ubuntu 24.04 preinstalled server Risc image from Ubuntu. I started by imaging bianbu to an SD card. Then copied the initrd from it to my machine so I could edit it.
+
+Once edited I put it back on the SD. It just works, I think it can boot any version of linux you want using this method. The only thing you need to do is identify which partition of your NVME is root and then put that value in the initrd. it’s that simple.
+
+The system boots from SD card, scans for devices so it can see the NVME, mounts the NVME and chroots the root directory. When I’m up and running I only see the NVME, which is good because that’s all I want to see.
+
+Let me know if you have any questions. Franco 
