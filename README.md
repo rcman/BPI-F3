@@ -123,7 +123,7 @@ efidebug boot order 0001<br>
 To boot into your fresh installation you can use:<br>
 bootefi bootmgr<br>
 <br>
-##GREAT NEWS!##
+##GREAT NEWS!<br>
 Well on some good news I finally got Ubuntu 24.04 booted on my board.
 
 I’m writing the docs on it not but basically I change the initrd file and chroot to the ubuntu root which continues to boot from the NVME.
