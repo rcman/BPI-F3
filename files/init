@@ -34,7 +34,11 @@ mkdir -p /var/lock
 mount -t sysfs -o nodev,noexec,nosuid sysfs /sys
 mount -t proc -o nodev,noexec,nosuid proc /proc
 
-chroot /tmp/franco /
+#chroot /tmp/franco /
+exec switch_root -c /dev/console /tmp/franco /sbin/init
+
+
+
 
 mount -t sysfs -o nodev,noexec,nosuid sysfs /sys
 mount -t proc -o nodev,noexec,nosuid proc /proc
