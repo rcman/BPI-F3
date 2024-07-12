@@ -12,8 +12,7 @@ This should work for any version of Linux, this has only been tested with Ubuntu
 **Ubuntu Image**
 <br>
 
-1. Image Bianbu to an Micro SD card. Expand the root so you have enough to copy an image to it.<br>
-
+1. Image Bianbu to an Micro SD card. Expand the root so you have enough to copy an image to it. You can download a bianbu image from bananapi.org<br>
 2. Image Ubuntu 24.04 to the NVME  (NOTE: you will lose all your data) <br>
     Download it from here:<br>
     https://cdimage.ubuntu.com/releases/noble/release/ubuntu-24.04-live-server-riscv64.img.gz<br>
