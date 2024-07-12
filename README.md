@@ -24,7 +24,7 @@ This boot has only been verified on this version of Ubuntu.
 **Sub instrctions**
 
   <br>
-  3.    After you've images Bianbu to the CD card. Insert it in to your PC and mount partition 5. To do this run the following command. This assumes your SD card shows us as SDD as the drive..<br>
+  3.    After you've images Bianbu to the SD card. Insert it in to your PC and mount partition 5. To do this run the following command. This assumes your SD card shows us as SDD as the drive..<br>
         sudo mkdir /mnt/sd<br>
         sudo mount /dev/sdd5 /mnt sd<br>
         Once mounted cd to /mnt/sd<br>
