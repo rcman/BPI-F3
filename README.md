@@ -38,7 +38,10 @@ On my Github in the BPI-F3 Repository and cpio is my shell script which will com
         go back on directory by typing: cd ..<br>
         Now re-compress the initrd with this command: ./cpionew.sh -r<br>
         Now run this command: cp initrd.gz initrd.img-6.1.15<br>
-        with the SD card still mounted as above run this command: sudo cp initrd.img-6.1.15 /mnt/sd/
+        with the SD card still mounted as above run this command: sudo cp initrd.img-6.1.15 /mnt/sd/<br>
+        type this command: sync and then type cd to change back to your home directory<br>
+        now unmount the sd card with this command: sudo umount /mnt/sd
+        
 
 
 Booting from the SD card to should mount the root partition on the NVME and everything should run from there.<br>
