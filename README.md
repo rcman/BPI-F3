@@ -23,7 +23,7 @@ This boot has only been verified on this version of Ubuntu.
 **Sub instrctions**
 
   <br>
-  3.    After you've images Bianbu to the SD card. Insert it in to your PC and mount partition 5. To do this run the following command. This assumes your SD card shows us as SDD as the drive. You can determine this by<br>
+  3.    After you've images Bianbu to the SD card. Insert it in to your PC and mount partition 5. To do this run the following command. This assumes your SD card shows us as SDD as the drive. You can determine this by
         running this command: sudo lsblk   Once you run this you'll see your SD card show up. You can tell which one it is by the size of your SD card<br>
         sudo mkdir /mnt/sd<br>
         sudo mount /dev/sdd5 /mnt/sd<br>
