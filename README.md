@@ -12,11 +12,18 @@ The way it’s booting now you can run any version of Linux you want. Here’s t
 **Ubuntu Image**
 <br>
 
-Image Bianbu to an Micro SD card. Expand the root so you have enough to copy an image to it.<br>
-Image Ubuntu 24.04 to the NVME  (NOTE: you will lose all your data) <br>
-What ever image you decide to use this determines which partition you'll use as root (/)<br>
-On my Github in the BPI-F3 Repository and cpio is my shell script which will compress and extract the initrd. The instructions are there.<br>
-  Sub instrctions:<br>
+1. Image Bianbu to an Micro SD card. Expand the root so you have enough to copy an image to it.<br>
+
+2> Image Ubuntu 24.04 to the NVME  (NOTE: you will lose all your data) <br>
+    Download it from here:<br>
+    https://cdimage.ubuntu.com/releases/noble/release/ubuntu-24.04-live-server-riscv64.img.gz<br>
+<br>
+This boot has only been verified on this version of Ubuntu.
+<br>
+
+**Sub instrctions**
+
+  <br>
       After you've images Bianbu to the CD card. Insert it in to your PC and mount partition 5. To do this run the following command. This assumes your SD card shows us as SDD as the drive..<br>
         sudo mkdir /mnt/sd<br>
         sudo mount /dev/sdd5 /mnt sd<br>
@@ -40,7 +47,9 @@ On my Github in the BPI-F3 Repository and cpio is my shell script which will com
         Now run this command: cp initrd.gz initrd.img-6.1.15<br>
         with the SD card still mounted as above run this command: sudo cp initrd.img-6.1.15 /mnt/sd/<br>
         type this command: sync and then type cd to change back to your home directory<br>
-        now unmount the sd card with this command: sudo umount /mnt/sd
+        now unmount the sd card with this command: sudo umount /mnt/sd<br>
+        remove the sd card and put it in the BPI-F3 machine and turn it on. It should boot to Ubuntu located on the NVME<br>
+        
         
 
 
