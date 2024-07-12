@@ -13,7 +13,7 @@ The way it’s booting now you can run any version of Linux you want. Here’s t
 <br>
 
 Image Bianbu to an Micro SD card. Expand the root so you have enough to copy an image to it.<br>
-Image Ubuntu 24.04 to the NVME<br>
+Image Ubuntu 24.04 to the NVME  (NOTE: you will lose all your data) <br>
 What ever image you decide to use determine which partition is root (/)<br>
 On my Github in the BPI-F3 Repository and cpio is my shell script which will compress and extract the initrd. The instructions are there.<br>
 Also in the repository in files folder there’s an init file which is from my initrd.<br>
