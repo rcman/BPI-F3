@@ -14,7 +14,7 @@ The way it’s booting now you can run any version of Linux you want. Here’s t
 
 1. Image Bianbu to an Micro SD card. Expand the root so you have enough to copy an image to it.<br>
 
-2> Image Ubuntu 24.04 to the NVME  (NOTE: you will lose all your data) <br>
+2. Image Ubuntu 24.04 to the NVME  (NOTE: you will lose all your data) <br>
     Download it from here:<br>
     https://cdimage.ubuntu.com/releases/noble/release/ubuntu-24.04-live-server-riscv64.img.gz<br>
 <br>
@@ -24,7 +24,7 @@ This boot has only been verified on this version of Ubuntu.
 **Sub instrctions**
 
   <br>
-      After you've images Bianbu to the CD card. Insert it in to your PC and mount partition 5. To do this run the following command. This assumes your SD card shows us as SDD as the drive..<br>
+  3.    After you've images Bianbu to the CD card. Insert it in to your PC and mount partition 5. To do this run the following command. This assumes your SD card shows us as SDD as the drive..<br>
         sudo mkdir /mnt/sd<br>
         sudo mount /dev/sdd5 /mnt sd<br>
         Once mounted cd to /mnt/sd<br>
