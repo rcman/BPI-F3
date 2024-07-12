@@ -2,7 +2,7 @@
 
 <br>
 <br>
-I finally got Ubuntu 24.04 running on my BPI-F3. It’s running well. Working on a video and documentation. I’m working on getting a newer version of the kernel running.
+Got Ubuntu 24.04 running on my BPI-F3. It’s running well. Working on a video and documentation. I’m working on getting a newer version of the kernel running.
 <br>
 <br>
 You can run any version of Linux you want. This has only been tested with Ubuntu 24.04<br>
