@@ -16,8 +16,8 @@ Image Bianbu to an Micro SD card. Expand the root so you have enough to copy an 
 Image Ubuntu 24.04 to the NVME<br>
 What ever image you decide to use determine which partition is root (/)<br>
 On my Github in the BPI-F3 Repository and cpio is my shell script which will compress and extract the initrd. The instructions are there.<br>
-Also in the repository in files there’s my init which is from the initrd when extracted<br>
-if your using Ubuntu then that should be fine but other OS then I’m not sure.<br>
+Also in the repository in files folder there’s an init file which is from my initrd.<br>
+if your using Ubuntu then that should be fine but other OS then I’m not sure because when other images are written each one writes the root to different partitions.<br>
 Replace the init and re-compress the initrd and put it back on the SD card replacing the one that’s there.<br>
 Booting from the SD card to should mount the root partition on the NVME and everything should run from there.<br>
 Ubuntu image Location: https://cdimage.ubuntu.com/releases/noble/release/ubuntu-24.04-live-server-riscv64.img.gz<br>
