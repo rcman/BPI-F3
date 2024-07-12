@@ -16,16 +16,25 @@ Image Bianbu to an Micro SD card. Expand the root so you have enough to copy an 
 Image Ubuntu 24.04 to the NVME  (NOTE: you will lose all your data) <br>
 What ever image you decide to use this determines which partition you'll use as root (/)<br>
 On my Github in the BPI-F3 Repository and cpio is my shell script which will compress and extract the initrd. The instructions are there.<br>
-  Sub instrctions:
+  Sub instrctions:<br>
       After you've images Bianbu to the CD card. Insert it in to your PC and mount partition 5. To do this run the following command. This assumes your SD card shows us as SDD as the drive..<br>
-        sudo mkdir /mnt/sd
-        sudo mount /dev/sdd5 /mnt sd
-        Once mounted cd to /mnt/sd
-        mkdir a work diretory in your home directory
-        mkdir ~/work
-        copy the initrd.img-6.1.15 to that directory with this command
-        cp initrd.img-6-1-15 ~/work/
-        Download 
+        sudo mkdir /mnt/sd<br>
+        sudo mount /dev/sdd5 /mnt sd<br>
+        Once mounted cd to /mnt/sd<br>
+        mkdir a work diretory in your home directory<br>
+        mkdir ~/work<br>
+        copy the initrd.img-6.1.15 to that directory with this command<br>
+        cp initrd.img-6-1-15 ~/work/<br>
+        Download cpionew.sh from the cpio directory in to the work directory<br>
+        type this command to go there<br>
+        cd ~/work<br>
+        you should already have the initrd.img-6.1.15 in this directory along with the cpionew.sh<br>
+        type this command: mkdir initrd-tree<br>
+        now type this command: cp initrd.img-6.1.15 initrd.gz<br>
+        now uncompress the initrd with this command: ./cpionew -u<br>
+        this should extract the initrd to the initrd-tree directory
+        this should extract the initrd to the initrd-tree directory. Change to that directory with cd initrd-tree<br>
+        
 
 If you use my init file you won't need to edit anything, just copy my init file over the one that's extracted from the initrd.
 Also in the repository in files folder there’s an init file which is from my initrd.<br>
