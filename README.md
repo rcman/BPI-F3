@@ -16,6 +16,18 @@ Image Bianbu to an Micro SD card. Expand the root so you have enough to copy an 
 Image Ubuntu 24.04 to the NVME  (NOTE: you will lose all your data) <br>
 What ever image you decide to use this determines which partition you'll use as root (/)<br>
 On my Github in the BPI-F3 Repository and cpio is my shell script which will compress and extract the initrd. The instructions are there.<br>
+  Sub instrctions:
+      After you've images Bianbu to the CD card. Insert it in to your PC and mount partition 5. To do this run the following command. This assumes your SD card shows us as SDD as the drive..<br>
+        sudo mkdir /mnt/sd
+        sudo mount /dev/sdd5 /mnt sd
+        Once mounted cd to /mnt/sd
+        mkdir a work diretory in your home directory
+        mkdir ~/work
+        copy the initrd.img-6.1.15 to that directory with this command
+        cp initrd.img-6-1-15 ~/work/
+        Download 
+
+If you use my init file you won't need to edit anything, just copy my init file over the one that's extracted from the initrd.
 Also in the repository in files folder there’s an init file which is from my initrd.<br>
 if your using Ubuntu then that should be fine but other OS then I’m not sure because when other images are written each one writes the root to different partitions.<br>
 You can use my init from the files directory or edit yourself. Compress the initrd and copy it back to the SD card replacing the one that’s there.<br>
