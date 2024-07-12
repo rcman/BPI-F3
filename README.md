@@ -40,8 +40,8 @@ This boot has only been verified on this version of Ubuntu.
         now type this command: cp initrd.img-6.1.15 initrd.gz<br>
         now uncompress the initrd with this command: ./cpionew -u<br>
         this should extract the initrd to the initrd-tree directory
-        this should extract the initrd to the initrd-tree directory. Change to that directory with cd initrd-tree<br>
-        Download my init file located in the files directory. Replace the init in initrd-tree with the one you Downloaded.<br>
+        this should extract files to initrd-tree directory. Change to that directory with cd initrd-tree<br>
+        Download the init file located in the files directory. Replace the init in initrd-tree with the one you Downloaded.<br>
         go back on directory by typing: cd ..<br>
         Now re-compress the initrd with this command: ./cpionew.sh -r<br>
         Now run this command: cp initrd.gz initrd.img-6.1.15<br>
