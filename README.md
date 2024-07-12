@@ -20,7 +20,8 @@ Also in the repository in files folder there’s an init file which is from my i
 if your using Ubuntu then that should be fine but other OS then I’m not sure because when other images are written each one writes the root to different partitions.<br>
 You can use my init from the files directory or edit yourself. Compress the initrd and copy it back to the SD card replacing the one that’s there.<br>
 Booting from the SD card to should mount the root partition on the NVME and everything should run from there.<br>
-Ubuntu image Location: https://cdimage.ubuntu.com/releases/noble/release/ubuntu-24.04-live-server-riscv64.img.gz<br>
+Ubuntu image Location:<br>
+https://cdimage.ubuntu.com/releases/noble/release/ubuntu-24.04-live-server-riscv64.img.gz<br>
 <br>
 <br>
 
