@@ -9,7 +9,7 @@ The way it’s booting now you can run an version of Linux you want. Here’s th
 <br>
 <br>
 
-Ubuntu Image
+**Ubuntu Image**
 <br>
 
 Image Bianbu to an Micro SD card. Expand the root so you have enough to copy an image to it.<br>
