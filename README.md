@@ -2,7 +2,7 @@
 
 Ubuntu 24.04 is now running on my BPI-F3. Will be working on a video for YouTube soon.
 
-This should work for any version of Linux, this has only been tested with Ubuntu 24.04<br>
+This should work for any version of Linux, this has only been tested with Ubuntu 24.04
 
 ##Getting Started
 
