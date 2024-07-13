@@ -1,8 +1,8 @@
-# Ubuntu 24.04 on BPI-F3. Boot from SD-Card then switches to NVME
+# Ubuntu 24.04 on BPI-F3 from SD-Card and running from NVME
 
 Ubuntu 24.04 is now running on my BPI-F3. Will be working on a video for YouTube soon.
 
-This should work for any version of Linux, this has only been tested with Ubuntu 24.04
+This should work for any version of Linux, this has only been tested with Ubuntu 24.0
 
 ##Getting Started
 
@@ -83,4 +83,4 @@ remove the sd card and put it in the BPI-F3 machine and turn it on. It should bo
 If you need help let me know.
 Thanks
 Franco
-
+![BPI-F3 Running Ubuntu 24.04](https://i.imgur.com/s9crx20.png)
