@@ -29,8 +29,8 @@ After you've images Bianbu to the SD card. Re-insert it to your PC and mount par
 **cp initrd.img-6-1-15 ~/work/**
 
         Download
-        Copy the cpionew.sh 
-Download the [File](https://github.com/rcman/BPI-F3/blob/main/cpio/cpionew.sh) here.
+        Copy the cpionew.sh Link below.
+Download the [File](https://github.com/rcman/BPI-F3/blob/main/cpio/cpionew.sh) here and copy it to your work directory.
        type this command to go there<br>
 **cd ~/work**
 
