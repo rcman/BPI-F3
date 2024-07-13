@@ -38,7 +38,8 @@ Download the [File](https://github.com/rcman/BPI-F3/blob/main/cpio/cpionew.sh) h
      type this command: 
 **mkdir initrd-tree**
 
-ow type this command: 
+ow type this command
+
 **cp initrd.img-6.1.15 initrd.gz**
          now uncompress the initrd with this command: 
 
@@ -53,20 +54,25 @@ Download the [init](https://github.com/rcman/BPI-F3/blob/main/files/init) file l
 
 **cd ..**
 
-Now re-compress the initrd with this command: 
+Now re-compress the initrd with this command
+
 **./cpionew.sh -r**
 
-Now run this command: 
+Now run this command
+
 **cp initrd.gz initrd.img-6.1.15**
 
-with the SD card still mounted as above run this command: 
+with the SD card still mounted as above run this command
+
 **sudo cp initrd.img-6.1.15 /mnt/sd/**
 
-type this command: 
+type this command
+
 **sync**
 
 and then type cd to change back to your home directory
-now unmount the sd card with this command:
+now unmount the sd card with this command
+
 **sudo umount /mnt/sd** 
 
 remove the sd card and put it in the BPI-F3 machine and turn it on. It should boot to Ubuntu located on the NVME
@@ -74,3 +80,4 @@ remove the sd card and put it in the BPI-F3 machine and turn it on. It should bo
 If you need help let me know.
 Thanks
 Franco
+
