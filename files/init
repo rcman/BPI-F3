@@ -1,3 +1,4 @@
+
 #!/bin/sh
 
 # Default PATH differs between shells, and is not automatically exported
@@ -14,21 +15,14 @@ export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 [ -d /proc ] || mkdir /proc
 [ -d /tmp ] || mkdir /tmp
 
-
 mount -t devtmpfs -o nosuid,mode=0755 udev /dev
-
 mount -t proc -o nodev,noexec,nosuid proc /proc
 
 echo "scanning for devs....."
-echo "Franco Shit"
 mkdir /tmp/franco
 mount -t ext4 /dev/nvme0n1p1 /tmp/franco
 ls -l /tmp/*
 ls -l /dev/nvme*
-
-echo "looking at directories"
-
-echo "I ran the command"
 
 mkdir -p /var/lock
 mount -t sysfs -o nodev,noexec,nosuid sysfs /sys
@@ -36,14 +30,7 @@ mount -t proc -o nodev,noexec,nosuid proc /proc
 
 #chroot /tmp/franco /
 exec switch_root -c /dev/console /tmp/franco /sbin/init
-
-
-
-
 mount -t sysfs -o nodev,noexec,nosuid sysfs /sys
 mount -t proc -o nodev,noexec,nosuid proc /proc
 mount -t devtmpfs -o nosuid,mode=0755 udev /dev
 ash
-
-
-
