@@ -28,7 +28,7 @@ Make a working directory in your home directory.
 
 **mkdir ~/work**
 
-Now copy the initrd-6.1.15 with the command below.
+Now copy the initrd-6.1.15 with the command below.<br>
 **cp initrd.img-6-1-15 ~/work/**
 
 Download
