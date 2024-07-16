@@ -14,7 +14,7 @@ Imaging to the NVME can be performed a couple differnet ways. You copy copy the 
 <br>
 
 This boot has only been verified on this version of Ubuntu. It should work for all versions of Linux you just need to know which partition is root(/).
-After you've images Bianbu to the SD card. Re-insert it to your PC and mount partition. Run this command next.
+After you've imaged Bianbu to the SD card. Re-insert it to your PC and mount partition. Run this command next.
 
 **sudo mkdir /mnt/sd**
 
