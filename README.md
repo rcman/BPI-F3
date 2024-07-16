@@ -18,8 +18,8 @@ After you've imaged Bianbu to the SD card. Re-insert it to your PC and mount par
 
 **sudo mkdir /mnt/sd**
 
-**sudo mount /dev/sdd5 /mnt/sd <br>/mnt/sd** (or which ever drive letter yours shows up as. Mine shows up as sdd. if yours
-shows up as SDA then **mount /dev/sda5**)
+**sudo mount /dev/sdd5 /mnt/sd** <br> (or which ever drive letter yours shows up as. Mine shows up as sdd. if yours
+shows up as SDA then mount /dev/sda5)
 Once mounted run the command to change directory.
 
 **cd /mnt/sd**
