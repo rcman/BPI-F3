@@ -4,7 +4,7 @@ Ubuntu 24.04 is now running on my BPI-F3. Will be working on a video for YouTube
 
 This should work for any version of Linux, this has only been tested with Ubuntu 24.04
 
-##Getting Started
+**Getting Started**
 
 Download the Bianbu [Image](https://drive.google.com/file/d/1WsmhTV6EIBS-wwhl4kwgR_v_N9DgiJ-C/view?usp=drive_link) and use your favorite too to image it to micro SD card. 
 
