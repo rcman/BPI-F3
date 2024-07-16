@@ -13,7 +13,7 @@ Download the Ubuntu [Image](https://cdimage.ubuntu.com/releases/noble/release/ub
 Imaging to the NVME can be performed a couple differnet ways. You copy copy the image from another system to your risc machine's SD Card, or use an image program like raspberry pi Imager or Balena Etcher. You can buy a USB to m.2 adapter which you can purchase on Amazon for about $20 dollars. 
 <br>
 
-This boot has only been verified on this version of Ubuntu.
+This boot has only been verified on this version of Ubuntu. It should work for all versions of Linux you just need to know which partition is root(/).
 After you've images Bianbu to the SD card. Re-insert it to your PC and mount partition. Run this command next.
 
 **sudo mkdir /mnt/sd**
