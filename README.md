@@ -10,6 +10,9 @@ Download the Bianbu [Image](https://drive.google.com/file/d/1WsmhTV6EIBS-wwhl4kw
 
 Download the Ubuntu [Image](https://cdimage.ubuntu.com/releases/noble/release/ubuntu-24.04-live-server-riscv64.img.gz) Ubuntu 24.04 to the NVME  (NOTE: you will lose all your data) <br> 
 
+Imaging to the NVME can be performed a couple differnet ways. You copy copy the image from anything system to the BPI-F3 machine and use an image program like raspberry pi Imager or Balena Etcher to image it there. You can also buy a inexpensive USB to m.2 imager and image it on the machine that contains the image.
+<br>
+
 This boot has only been verified on this version of Ubuntu.
 After you've images Bianbu to the SD card. Re-insert it to your PC and mount partition. Run this command next.
 
