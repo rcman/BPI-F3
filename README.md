@@ -87,3 +87,9 @@ If you need help let me know.
 Thanks
 Franco
 ![BPI-F3 Running Ubuntu 24.04](https://i.imgur.com/s9crx20.png)
+<br><br>
+# Project 2 Fixing the kernel
+<br>
+https://github.com/TroyMitchell911/bpi-f3-linux-6.6
+<br>
+https://github.com/jellyterra/bpi-f3-archlinux
