@@ -92,6 +92,7 @@ Franco
 <br>
 https://github.com/TroyMitchell911/bpi-f3-linux-6.6
 <br>
+The link below is to show the modules and network drivers needed to boot.<br>
 https://github.com/jellyterra/bpi-f3-archlinux
 <br>
 
