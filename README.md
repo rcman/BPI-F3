@@ -93,3 +93,8 @@ Franco
 https://github.com/TroyMitchell911/bpi-f3-linux-6.6
 <br>
 https://github.com/jellyterra/bpi-f3-archlinux
+<br>
+
+**Fixing the boot so it will always boot**
+<br>
+https://gitlab.com/rkraevskiy/ubootpubkey/-/blob/master/README?ref_type=heads
