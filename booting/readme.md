@@ -76,3 +76,4 @@ https://www.thegoodpenguin.co.uk/blog/an-overview-of-opensbi/
 https://github.com/riscv-software-src/opensbi/blob/master/docs/firmware/fw.md
 <br>
 <br>
+https://github.com/antmicro/zephyr-fsbl-hifive-unmatched
