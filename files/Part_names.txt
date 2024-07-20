@@ -1,0 +1,11 @@
+Partition names
+
+
+Number  Start   End     Size    File system  Name     Flags
+ 1      131kB   393kB   262kB                fsbl
+ 2      393kB   459kB   65.5kB               env
+ 3      1049kB  2097kB  1049kB               opensbi
+ 4      2097kB  4194kB  2097kB               uboot
+ 5      4194kB  273MB   268MB   ext4         bootfs
+ 6      273MB   8863MB  8590MB  ext4         rootfs
+
