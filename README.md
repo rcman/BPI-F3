@@ -49,7 +49,7 @@ type this command
 
 now uncompress the initrd with this command: 
 
-**./cpionew -u**
+**./cpionew.sh -u**
 
 this should extract the initrd to the initrd-tree directory
 Change to that directory with this command
