@@ -8,7 +8,7 @@ This should work for any version of Linux, this has only been tested with Ubuntu
 
 Download the Bianbu [Image](https://drive.google.com/file/d/1WsmhTV6EIBS-wwhl4kwgR_v_N9DgiJ-C/view?usp=drive_link) and use your favorite tool to image it to micro SD card. 
 
-Download the Ubuntu [Image](https://cdimage.ubuntu.com/releases/noble/release/ubuntu-24.04-live-server-riscv64.img.gz) Ubuntu 24.04 to the NVME  (NOTE: you will lose all your data) <br> 
+Download the Ubuntu [Image](https://cdimage.ubuntu.com/releases/noble/release/ubuntu-24.04-preinstalled-server-riscv64.img.xz) Ubuntu 24.04 to the NVME  (NOTE: you will lose all your data) <br> 
 
 Imaging to the NVME can be performed a couple differnet ways. You copy copy the image from another system to your risc machine's SD Card, or use an image program like raspberry pi Imager or Balena Etcher. You can buy a USB to m.2 adapter which you can purchase on Amazon for about $20 dollars. 
 <br>
